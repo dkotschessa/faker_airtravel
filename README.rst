@@ -6,7 +6,6 @@
 faker_vehicle
 =============
 
- |pypi| |unix_build| |coverage| |license|
 
 faker_airtravel is a provider for the `Faker`_ Python package, and a fork of https://github.com/fcurella/faker_vehicle.  Thanks to it's maintainer.
 
