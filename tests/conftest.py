@@ -13,7 +13,7 @@ from src.vehicle import VehicleProvider  # noqa
 @pytest.fixture(scope='module')
 def fake():
     fixture = Faker()
-    fixture.add_provider(VehicleProvider)
+    fixture.add_provider(AirTravelProvider)
     return fixture
 
 @pytest.fixture
