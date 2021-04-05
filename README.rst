@@ -62,4 +62,4 @@ Add the ``AirTravelProvider`` to your ``Faker`` instance:
    
    
     json.dumps(fake.airport_object())
-    # {"Airport": Philadelphia International
+    # {"Airport": Philadelphia International, "iata" : "PHL", "City" : "Philadelphia",  "State" : "PA"}
