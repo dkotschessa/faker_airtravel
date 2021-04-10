@@ -7,7 +7,7 @@ faker_vehicle
 =============
 
 
-faker_airtravel is a provider for the `Faker`_ Python package, and a fork of https://github.com/fcurella/faker_vehicle.  Thanks to it's maintainer.
+faker_airtravel is a provider for the `Faker` Python package, and a fork of https://github.com/fcurella/faker_vehicle.  I thank the maintainer of this provider for it's existence, as this is nearly identical in structure.
 
 It provides vehicle related fake data for testing purposes:
 
