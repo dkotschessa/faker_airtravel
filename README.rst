@@ -3,13 +3,13 @@
 
 
 
-faker_vehicle
+airtravel
 =============
 
 
 faker_airtravel is a provider for the `Faker`_ Python package, and a fork of https://github.com/fcurella/faker_vehicle.  Thanks to it's maintainer.
 
-It provides vehicle related fake data for testing purposes:
+It provides airtravel related fake data for testing purposes:
 
 This will provide travel related "fake" data for testing purposes.  (i.e. the data is fake, but the airport codes/names are real). 
 
@@ -33,7 +33,7 @@ Install with pip:
 
 .. code:: bash
 
-    pip install faker_travel
+    pip install faker_airtravel
 
 Or install with setup.py
 
@@ -47,7 +47,7 @@ Add the ``AirTravelProvider`` to your ``Faker`` instance:
 .. code:: python
 
     from faker import Faker
-    from faker_vehicle import VehicleProvider
+    from faker_airtravel import AirTravelProvider
 
     fake = Faker()
     fake.add_provider(AirTravelProvider)
