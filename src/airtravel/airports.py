@@ -1,8 +1,9 @@
 
 
 from faker.providers import BaseProvider
-from random import choice
+from random import choice, choices, randint
 from .airport_dict import airport_list
+from .airlines_dict import airlines
 
 
 class AirTravelProvider(BaseProvider):
@@ -43,8 +44,23 @@ class AirTravelProvider(BaseProvider):
         icao = choice(icao_list)
         return icao
 
-    def airport_flight(self):
-        airports = choices(airports, k=2)
+    
+    def airline(self):
+        airline = choice(airlines)
+        return airline
+
+    def flight(self):
+        airports = choices(airport_list, k=2)
         origin = airports[0]
-        airport = self.airport_object()
-        origin = airports
+        destination = airports[1]
+        airline = choice(airlines)
+        stops = choice([1,2,3,'non-stop'])
+        price = randint(200, 1000)
+        flight_object = {'airline' : airline,
+                'origin': origin,
+                'destination' : destination,
+                'stops' : stops,
+                'price' : price
+        }
+        return flight_object
+

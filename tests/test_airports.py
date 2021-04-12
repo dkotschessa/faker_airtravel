@@ -33,11 +33,17 @@ def test_airport_name():
 
 def test_iata():
     iata = fake.airport_iata()
-    assert len(iata) >= 1
+    assert len(iata) == 3
 
 def test_icao():
-    icao = fake.airport_icao() # not all airports have ICAO
-    assert len(icao) >= 1
+    icao = fake.airport_icao()
+    assert len(icao) == 4
 
 
+def test_airline():
+    airline = fake.airline()
+    assert len(airline) >= 1
 
+def test_flight():
+    flight = fake.flight()
+    assert len(flight) == 5
