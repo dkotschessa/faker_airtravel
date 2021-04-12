@@ -1,4 +1,4 @@
-airports = [{
+airport_list = [{
     'Airport': 'Albuquerque International Airport',
     'iata': 'ABQ',
     'icao': 'KABQ',

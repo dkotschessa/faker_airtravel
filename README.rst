@@ -16,7 +16,8 @@ This will provide travel related "fake" data for testing purposes.  (i.e. the da
     * Airlines
     * Airports
     * Airport Locations
-    * Airport Codes (IATA)
+    * Airport Codes (IATA and ICAO)
+    * Aiport 
     
 Future improvements may include
 
