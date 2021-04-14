@@ -50,9 +50,7 @@ class AirTravelProvider(BaseProvider):
         return airline
 
     def flight(self):
-        airports = choices(airport_list, k=2)
-        origin = airports[0]
-        destination = airports[1]
+        origin, destination = choices(airport_list, k=2)
         airline = choice(airlines)
         stops = choice([1,2,3,'non-stop'])
         price = randint(200, 1000)
