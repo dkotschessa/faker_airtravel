@@ -1,16 +1,14 @@
-
 import random
-
 
 import pytest
 from faker import Faker
-
-fake = Faker()
-import src.airtravel
 from src.airtravel import AirTravelProvider
 from src.airtravel.airport_dict import airport_list as ap
 
+fake = Faker()
 fake.add_provider(AirTravelProvider)
+
+
 
 
 @pytest.fixture
@@ -29,7 +27,7 @@ def test_dict_keys(airports, test_input):
 
 def test_airport_name():
     name = fake.airport_name()
-    assert len(name) > 1
+    assert len(name) > 4
 
 def test_iata():
     iata = fake.airport_iata()
@@ -38,7 +36,6 @@ def test_iata():
 def test_icao():
     icao = fake.airport_icao()
     assert len(icao) == 4
-
 
 def test_airline():
     airline = fake.airline()
