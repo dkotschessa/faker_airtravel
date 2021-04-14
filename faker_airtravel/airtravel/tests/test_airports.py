@@ -2,8 +2,8 @@ import random
 
 import pytest
 from faker import Faker
-from src.airtravel import AirTravelProvider
-from src.airtravel.airport_dict import airport_list as ap
+from faker_airtravel.airtravel import AirTravelProvider
+from faker_airtravel.airtravel.airport_dict import airport_list as ap
 
 fake = Faker()
 fake.add_provider(AirTravelProvider)

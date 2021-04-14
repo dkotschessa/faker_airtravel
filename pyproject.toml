@@ -6,6 +6,7 @@ build-backend = "flit_core.buildapi"
 module = "faker_airtravel"
 author = "David Kotschessa"
 author-email = "itzdavey@gmail.com"
+home-page = "https://github.com/dkotschessa/faker_airtravel.git"
 classifiers = [ "License :: OSI Approved :: MIT License",]
 description-file = "README.md"
 
