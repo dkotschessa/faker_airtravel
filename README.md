@@ -28,6 +28,7 @@ Add as a provider to your Faker instance:
 
 from faker import Faker
 from faker_airtravel import AirTravelProvider
+fake.add_provider(AirTravelProvider)
 
 ```
 
