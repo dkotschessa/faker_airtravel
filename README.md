@@ -1,11 +1,14 @@
 
 # Airtravel provider for Faker
-============================
 
-##Acknowlegements
+
+## Acknowlegements
 
 
 `faker_airtravel` is a provider for the `Faker` Python package, and a fork of https://github.com/kennethwsmith/faker_vehicle.  I would like to thank the maintainer of that repository, since I used the structure to create this one.
+
+
+## Description
 
 `faker_airtravel` provides airtravel related fake data for testing purposes.  The definition of "fake" in this context really means "random," as the airport codes, cities, and locations are real.  However, I make no claims about accuracy, so do not use this as location data!
 
@@ -34,6 +37,8 @@ If you already use faker, you probably know the conventional use is:
 fake = Faker()
 
 ```
+
+
 ### Airport Object
 
 ``` python
