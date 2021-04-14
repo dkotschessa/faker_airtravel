@@ -15,7 +15,7 @@ fake.add_provider(AirTravelProvider)
 def airports():
     return ap
 
-airport_keys = ['Airport', 'iata', 'icao', 'City', 'State', 'Country']
+airport_keys = ['airport', 'iata', 'icao', 'city', 'state', 'country']
 
 def test_airports(airports):
     assert len(airports) > 1

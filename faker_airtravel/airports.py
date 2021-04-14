@@ -21,9 +21,9 @@ class AirTravelProvider(BaseProvider):
         # {'Airport': 'Bradley International Airport',
         #  'iata': 'BDL',
         #  'icao': 'KBDL',
-        #  'City': 'Windsor Locks',
-        #  'State': 'Connecticut',
-        #  'Country': 'United States'}
+        #  'city': 'Windsor Locks',
+        #  'state': 'Connecticut',
+        #  'country': 'United States'}
         ap = choice(airport_list)
         return ap
 
@@ -31,7 +31,7 @@ class AirTravelProvider(BaseProvider):
 
     def airport_name(self):
         airport = self.airport_object()
-        name = airport.get('Airport')
+        name = airport.get('airport')
         return name
 
     def airport_iata(self):

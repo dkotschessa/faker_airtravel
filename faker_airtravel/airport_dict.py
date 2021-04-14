@@ -1,2780 +1,2780 @@
 airport_list = [{
-    'Airport': 'Albuquerque International Airport',
+    'airport': 'Albuquerque International airport',
     'iata': 'ABQ',
     'icao': 'KABQ',
-    'City': 'Albuquerque',
-    'State': 'New Mexico',
-    'Country': 'United States'
+    'city': 'Albuquerque',
+    'state': 'New Mexico',
+    'country': 'United states'
 }, {
-    'Airport': 'Arrecife Airport',
+    'airport': 'Arrecife airport',
     'iata': 'ACE',
     'icao': 'GCRR',
-    'City': 'San Bartolomé',
-    'State': 'Canary Islands',
-    'Country': 'Spain'
+    'city': 'San Bartolomé',
+    'state': 'Canary Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'Sesquicentenario Airport',
+    'airport': 'Sesquicentenario airport',
     'iata': 'ADZ',
     'icao': 'SKSP',
-    'City': 'San Andrés',
-    'State': 'San Andres y Providencia',
-    'Country': 'Colombia'
+    'city': 'San Andrés',
+    'state': 'San Andres y Providencia',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Aeroparque Jorge Newbery',
+    'airport': 'Aeroparque Jorge Newbery',
     'iata': 'AEP',
     'icao': 'SABE',
-    'City': 'Buenos Aires',
-    'State': 'Ciudad de Buenos Aires',
-    'Country': 'Argentina'
+    'city': 'Buenos Aires',
+    'state': 'Ciudad de Buenos Aires',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Adler Airport',
+    'airport': 'Adler airport',
     'iata': 'AER',
     'icao': 'URSS',
-    'City': 'Sochi',
-    'State': 'Krasnodarskiy Kray',
-    'Country': 'Russia'
+    'city': 'Sochi',
+    'state': 'Krasnodarskiy Kray',
+    'country': 'Russia'
 }, {
-    'Airport': 'Malaga Airport',
+    'airport': 'Malaga airport',
     'iata': 'AGP',
     'icao': 'LEMG',
-    'City': 'Malaga',
-    'State': 'Andalucia',
-    'Country': 'Spain'
+    'city': 'Malaga',
+    'state': 'Andalucia',
+    'country': 'Spain'
 }, {
-    'Airport': 'Santa Maria Airport',
+    'airport': 'Santa Maria airport',
     'iata': 'AJU',
     'icao': 'SBAR',
-    'City': 'Aracaju',
-    'State': 'Sergipe',
-    'Country': 'Brazil'
+    'city': 'Aracaju',
+    'state': 'Sergipe',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Alicante Airport',
+    'airport': 'Alicante airport',
     'iata': 'ALC',
     'icao': 'LEAL',
-    'City': 'Elx',
-    'State': 'Valencia',
-    'Country': 'Spain'
+    'city': 'Elx',
+    'state': 'Valencia',
+    'country': 'Spain'
 }, {
-    'Airport': 'Sardar Vallabhbhai Patel International Airport',
+    'airport': 'Sardar Vallabhbhai Patel International airport',
     'iata': 'AMD',
     'icao': 'VAAH',
-    'City': 'Ahmedabad',
-    'State': 'Gujarat',
-    'Country': 'India'
+    'city': 'Ahmedabad',
+    'state': 'Gujarat',
+    'country': 'India'
 }, {
-    'Airport': 'Schiphol Airport',
+    'airport': 'Schiphol airport',
     'iata': 'AMS',
     'icao': 'EHAM',
-    'City': 'Schiphol Zuid',
-    'State': 'North Holland',
-    'Country': 'Netherlands'
+    'city': 'Schiphol Zuid',
+    'state': 'North Holland',
+    'country': 'Netherlands'
 }, {
-    'Airport': 'Anchorage International Airport',
+    'airport': 'Anchorage International airport',
     'iata': 'ANC',
     'icao': 'PANC',
-    'City': 'Anchorage',
-    'State': 'Alaska',
-    'Country': 'United States'
+    'city': 'Anchorage',
+    'state': 'Alaska',
+    'country': 'United states'
 }, {
-    'Airport': 'Cerro Moreno International Airport',
+    'airport': 'Cerro Moreno International airport',
     'iata': 'ANF',
     'icao': 'SCFA',
-    'City': 'Antofagasta',
-    'State': 'Antofagasta',
-    'Country': 'Chile'
+    'city': 'Antofagasta',
+    'state': 'Antofagasta',
+    'country': 'Chile'
 }, {
-    'Airport': 'Rodriguez Ballon Airport',
+    'airport': 'Rodriguez Ballon airport',
     'iata': 'AQP',
     'icao': 'SPQU',
-    'City': 'Arequipa',
-    'State': 'Arequipa',
-    'Country': 'Peru'
+    'city': 'Arequipa',
+    'state': 'Arequipa',
+    'country': 'Peru'
 }, {
-    'Airport': 'Arlanda Airport',
+    'airport': 'Arlanda airport',
     'iata': 'ARN',
     'icao': 'ESSA',
-    'City': 'Märst',
-    'State': 'Stockholm',
-    'Country': 'Sweden'
+    'city': 'Märst',
+    'state': 'Stockholm',
+    'country': 'Sweden'
 }, {
-    'Airport': 'Silvio Pettirossi International Airport',
+    'airport': 'Silvio Pettirossi International airport',
     'iata': 'ASU',
     'icao': 'SGAS',
-    'City': 'Colonia Mariano Roque Alonso',
-    'State': 'Central',
-    'Country': 'Paraguay'
+    'city': 'Colonia Mariano Roque Alonso',
+    'state': 'Central',
+    'country': 'Paraguay'
 }, {
-    'Airport': 'Eleftherios Venizelos International Airport',
+    'airport': 'Eleftherios Venizelos International airport',
     'iata': 'ATH',
     'icao': 'LGAV',
-    'City': 'Athens',
-    'State': 'Attiki',
-    'Country': 'Greece'
+    'city': 'Athens',
+    'state': 'Attiki',
+    'country': 'Greece'
 }, {
-    'Airport': 'Hartsfield-Jackson Atlanta International Airport',
+    'airport': 'Hartsfield-Jackson Atlanta International airport',
     'iata': 'ATL',
     'icao': 'KATL',
-    'City': 'Atlanta',
-    'State': 'Georgia',
-    'Country': 'United States'
+    'city': 'Atlanta',
+    'state': 'Georgia',
+    'country': 'United states'
 }, {
-    'Airport': 'Abu Dhabi International Airport',
+    'airport': 'Abu Dhabi International airport',
     'iata': 'AUH',
     'icao': 'OMAA',
-    'City': 'Abu Dhabi',
-    'State': 'Abu Dhabi',
-    'Country': 'United Arab Emirates'
+    'city': 'Abu Dhabi',
+    'state': 'Abu Dhabi',
+    'country': 'United Arab Emirates'
 }, {
-    'Airport': 'Austin-Bergstrom International Airport',
+    'airport': 'Austin-Bergstrom International airport',
     'iata': 'AUS',
     'icao': 'KAUS',
-    'City': 'Austin',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'Austin',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Antalya Airport',
+    'airport': 'Antalya airport',
     'iata': 'AYT',
     'icao': 'LTAI',
-    'City': 'Antalya',
-    'State': 'Antalya',
-    'Country': 'Turkey'
+    'city': 'Antalya',
+    'state': 'Antalya',
+    'country': 'Turkey'
 }, {
-    'Airport': 'Ernesto Cortissoz Airport',
+    'airport': 'Ernesto Cortissoz airport',
     'iata': 'BAQ',
     'icao': 'SKBQ',
-    'City': 'Soledad',
-    'State': 'Atlantico',
-    'Country': 'Colombia'
+    'city': 'Soledad',
+    'state': 'Atlantico',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Barcelona International Airport',
+    'airport': 'Barcelona International airport',
     'iata': 'BCN',
     'icao': 'LEBL',
-    'City': 'El Prat de Llobregat',
-    'State': 'Catalonia',
-    'Country': 'Spain'
+    'city': 'El Prat de Llobregat',
+    'state': 'Catalonia',
+    'country': 'Spain'
 }, {
-    'Airport': 'Bradley International Airport',
+    'airport': 'Bradley International airport',
     'iata': 'BDL',
     'icao': 'KBDL',
-    'City': 'Windsor Locks',
-    'State': 'Connecticut',
-    'Country': 'United States'
+    'city': 'Windsor Locks',
+    'state': 'Connecticut',
+    'country': 'United states'
 }, {
-    'Airport': 'Surcin Airport',
+    'airport': 'Surcin airport',
     'iata': 'BEG',
     'icao': 'LYBE',
-    'City': 'Surčin',
-    'State': 'Beograd',
-    'Country': 'Serbia'
+    'city': 'Surčin',
+    'state': 'Beograd',
+    'country': 'Serbia'
 }, {
-    'Airport': 'Val de Caes International Airport',
+    'airport': 'Val de Caes International airport',
     'iata': 'BEL',
     'icao': 'SBBE',
-    'City': 'Belem',
-    'State': 'Para',
-    'Country': 'Brazil'
+    'city': 'Belem',
+    'state': 'Para',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Palonegro Airport',
+    'airport': 'Palonegro airport',
     'iata': 'BGA',
     'icao': 'SKBG',
-    'City': 'Bucaramanga',
-    'State': 'Santander',
-    'Country': 'Colombia'
+    'city': 'Bucaramanga',
+    'state': 'Santander',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Bergen Flesland Airport',
+    'airport': 'Bergen Flesland airport',
     'iata': 'BGO',
     'icao': 'ENBR',
-    'City': 'Blomsterdalen',
-    'State': 'Hordaland Fylke',
-    'Country': 'Norway'
+    'city': 'Blomsterdalen',
+    'state': 'Hordaland Fylke',
+    'country': 'Norway'
 }, {
-    'Airport': 'Orio Al Serio Airport',
+    'airport': 'Orio Al Serio airport',
     'iata': 'BGY',
     'icao': 'LIME',
-    'City': 'Grassobbio',
-    'State': 'Lombardy',
-    'Country': 'Italy'
+    'city': 'Grassobbio',
+    'state': 'Lombardy',
+    'country': 'Italy'
 }, {
-    'Airport': 'Bahia Blanca Cte Espora Naval Air Base',
+    'airport': 'Bahia Blanca Cte Espora Naval Air Base',
     'iata': 'BHI',
     'icao': '',
-    'City': 'Punta Alta',
-    'State': 'Buenos Aires',
-    'Country': 'Argentina'
+    'city': 'Punta Alta',
+    'state': 'Buenos Aires',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Birmingham International Airport',
+    'airport': 'Birmingham International airport',
     'iata': 'BHX',
     'icao': 'EGBB',
-    'City': 'Birmingham',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Birmingham',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Bangkok International Airport',
+    'airport': 'Bangkok International airport',
     'iata': 'BKK',
     'icao': 'VTBS',
-    'City': 'Lak Si',
-    'State': 'Bangkok',
-    'Country': 'Thailand'
+    'city': 'Lak Si',
+    'state': 'Bangkok',
+    'country': 'Thailand'
 }, {
-    'Airport': 'Bologna Airport',
+    'airport': 'Bologna airport',
     'iata': 'BLQ',
     'icao': 'LIPE',
-    'City': 'Bologna',
-    'State': 'Emilia Romagna',
-    'Country': 'Italy'
+    'city': 'Bologna',
+    'state': 'Emilia Romagna',
+    'country': 'Italy'
 }, {
-    'Airport': 'HAL Bangalore International Airport',
+    'airport': 'HAL Bangalore International airport',
     'iata': 'BLR',
     'icao': 'VOBG',
-    'City': 'Bangalore',
-    'State': 'Karnataka',
-    'Country': 'India'
+    'city': 'Bangalore',
+    'state': 'Karnataka',
+    'country': 'India'
 }, {
-    'Airport': 'Nashville International Airport',
+    'airport': 'Nashville International airport',
     'iata': 'BNA',
     'icao': 'KBNA',
-    'City': 'Nashville',
-    'State': 'Tennessee',
-    'Country': 'United States'
+    'city': 'Nashville',
+    'state': 'Tennessee',
+    'country': 'United states'
 }, {
-    'Airport': 'Bordeaux Airport',
+    'airport': 'Bordeaux airport',
     'iata': 'BOD',
     'icao': 'LFBD',
-    'City': 'Merignac',
-    'State': 'Aquitaine',
-    'Country': 'France'
+    'city': 'Merignac',
+    'state': 'Aquitaine',
+    'country': 'France'
 }, {
-    'Airport': 'Eldorado International Airport',
+    'airport': 'Eldorado International airport',
     'iata': 'BOG',
     'icao': 'SKBO',
-    'City': 'Fontibón',
-    'State': 'Distrito Especial',
-    'Country': 'Colombia'
+    'city': 'Fontibón',
+    'state': 'Distrito Especial',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Boise Air Terminal',
+    'airport': 'Boise Air Terminal',
     'iata': 'BOI',
     'icao': 'KBOI',
-    'City': 'Boise',
-    'State': 'Idaho',
-    'Country': 'United States'
+    'city': 'Boise',
+    'state': 'Idaho',
+    'country': 'United states'
 }, {
-    'Airport': 'Chhatrapati Shivaji International Airport',
+    'airport': 'Chhatrapati Shivaji International airport',
     'iata': 'BOM',
     'icao': 'VABB',
-    'City': 'Mumbai',
-    'State': 'Maharashtra',
-    'Country': 'India'
+    'city': 'Mumbai',
+    'state': 'Maharashtra',
+    'country': 'India'
 }, {
-    'Airport': 'Bodo Airport',
+    'airport': 'Bodo airport',
     'iata': 'BOO',
     'icao': 'ENBO',
-    'City': 'Bodo',
-    'State': 'Nordland Fylke',
-    'Country': 'Norway'
+    'city': 'Bodo',
+    'state': 'Nordland Fylke',
+    'country': 'Norway'
 }, {
-    'Airport': 'Gen E L Logan International Airport',
+    'airport': 'Gen E L Logan International airport',
     'iata': 'BOS',
     'icao': 'KBOS',
-    'City': 'Boston',
-    'State': 'Massachusetts',
-    'Country': 'United States'
+    'city': 'Boston',
+    'state': 'Massachusetts',
+    'country': 'United states'
 }, {
-    'Airport': 'Sepinggan Airport',
+    'airport': 'Sepinggan airport',
     'iata': 'BPN',
     'icao': 'WALL',
-    'City': 'Balikpapan',
-    'State': 'Kalimantan Timur',
-    'Country': 'Indonesia'
+    'city': 'Balikpapan',
+    'state': 'Kalimantan Timur',
+    'country': 'Indonesia'
 }, {
-    'Airport': 'San Carlos de Bariloche Airport',
+    'airport': 'San Carlos de Bariloche airport',
     'iata': 'BRC',
     'icao': 'SAZS',
-    'City': 'San Carlos DeBariloche',
-    'State': 'Santa Fe',
-    'Country': 'Argentina'
+    'city': 'San Carlos DeBariloche',
+    'state': 'Santa Fe',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Brussels Airport',
+    'airport': 'Brussels airport',
     'iata': 'BRU',
     'icao': 'EBBR',
-    'City': 'Bruxelles',
-    'State': 'Vlaams Brabant',
-    'Country': 'Belgium'
+    'city': 'Bruxelles',
+    'state': 'Vlaams Brabant',
+    'country': 'Belgium'
 }, {
-    'Airport': 'Juscelino Kubitschek International Airport',
+    'airport': 'Juscelino Kubitschek International airport',
     'iata': 'BSB',
     'icao': 'SBBR',
-    'City': 'Lago Sul',
-    'State': 'Distrito Federal',
-    'Country': 'Brazil'
+    'city': 'Lago Sul',
+    'state': 'Distrito Federal',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Ferihegy Airport',
+    'airport': 'Ferihegy airport',
     'iata': 'BUD',
     'icao': 'LHBP',
-    'City': 'Budapest',
-    'State': 'Budapest',
-    'Country': 'Hungary'
+    'city': 'Budapest',
+    'state': 'Budapest',
+    'country': 'Hungary'
 }, {
-    'Airport': 'Burbank Glendale Pasadena Airport',
+    'airport': 'Burbank Glendale Pasadena airport',
     'iata': 'BUR',
     'icao': 'KBUR',
-    'City': 'Burbank',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Burbank',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Baltimore-Washington International Thurgood Mars',
+    'airport': 'Baltimore-Washington International Thurgood Mars',
     'iata': 'BWI',
     'icao': 'KBWI',
-    'City': 'Baltimore',
-    'State': 'Maryland',
-    'Country': 'United States'
+    'city': 'Baltimore',
+    'state': 'Maryland',
+    'country': 'United states'
 }, {
-    'Airport': 'Philip S W Goldson International Airport',
+    'airport': 'Philip S W Goldson International airport',
     'iata': 'BZE',
     'icao': 'MZBZ',
-    'City': 'Hattieville',
-    'State': 'Belize',
-    'Country': 'Belize'
+    'city': 'Hattieville',
+    'state': 'Belize',
+    'country': 'Belize'
 }, {
-    'Airport': 'Baiyun Airport',
+    'airport': 'Baiyun airport',
     'iata': 'CAN',
     'icao': 'ZGGG',
-    'City': 'Guangzhou',
-    'State': 'Guangdong',
-    'Country': 'China'
+    'city': 'Guangzhou',
+    'state': 'Guangdong',
+    'country': 'China'
 }, {
-    'Airport': 'Jorge Wilsterman Airport',
+    'airport': 'Jorge Wilsterman airport',
     'iata': 'CBB',
     'icao': 'SLCB',
-    'City': 'Cochabamba',
-    'State': 'Cochabamba',
-    'Country': 'Bolivia'
+    'city': 'Cochabamba',
+    'state': 'Cochabamba',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'Carriel Sur International Airport',
+    'airport': 'Carriel Sur International airport',
     'iata': 'CCP',
     'icao': 'SCIE',
-    'City': 'Hualpencillo',
-    'State': 'Bio-Bio',
-    'Country': 'Chile'
+    'city': 'Hualpencillo',
+    'state': 'Bio-Bio',
+    'country': 'Chile'
 }, {
-    'Airport': 'Simon Bolivar International Airport',
+    'airport': 'Simon Bolivar International airport',
     'iata': 'CCS',
     'icao': 'SVMI',
-    'City': 'Catia la Mar',
-    'State': 'Vargas',
-    'Country': 'Venezuela'
+    'city': 'Catia la Mar',
+    'state': 'Vargas',
+    'country': 'Venezuela'
 }, {
-    'Airport': 'Netaji Subhash Chandra Bose International Airpor',
+    'airport': 'Netaji Subhash Chandra Bose International Airpor',
     'iata': 'CCU',
     'icao': 'VECC',
-    'City': 'Kolkata',
-    'State': 'West Bengal',
-    'Country': 'India'
+    'city': 'Kolkata',
+    'state': 'West Bengal',
+    'country': 'India'
 }, {
-    'Airport': 'Charles de Gaulle International Airport',
+    'airport': 'Charles de Gaulle International airport',
     'iata': 'CDG',
     'icao': 'LFPG',
-    'City': 'Le Mesnil-Amelot',
-    'State': 'Ile-de-France',
-    'Country': 'France'
+    'city': 'Le Mesnil-Amelot',
+    'state': 'Ile-de-France',
+    'country': 'France'
 }, {
-    'Airport': 'Lahug Airport',
+    'airport': 'Lahug airport',
     'iata': 'CEB',
     'icao': 'RPVM',
-    'City': 'Cebu',
-    'State': 'Central Visayas',
-    'Country': 'Philippines'
+    'city': 'Cebu',
+    'state': 'Central Visayas',
+    'country': 'Philippines'
 }, {
-    'Airport': 'Marechal Rondon International Airport',
+    'airport': 'Marechal Rondon International airport',
     'iata': 'CGB',
     'icao': 'SBCY',
-    'City': 'Cuiaba',
-    'State': 'Centro-Oeste',
-    'Country': 'Brazil'
+    'city': 'Cuiaba',
+    'state': 'Centro-Oeste',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Congonhas International Airport',
+    'airport': 'Congonhas International airport',
     'iata': 'CGH',
     'icao': 'SBSP',
-    'City': 'Sao Paulo',
-    'State': 'Sao Paulo',
-    'Country': 'Brazil'
+    'city': 'Sao Paulo',
+    'state': 'Sao Paulo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Jakarta International Airport',
+    'airport': 'Jakarta International airport',
     'iata': 'CGK',
     'icao': 'WIII',
-    'City': 'Tangerang',
-    'State': 'Banten',
-    'Country': 'Indonesia'
+    'city': 'Tangerang',
+    'state': 'Banten',
+    'country': 'Indonesia'
 }, {
-    'Airport': 'Cologne Bonn Airport',
+    'airport': 'Cologne Bonn airport',
     'iata': 'CGN',
     'icao': 'EDDK',
-    'City': 'Cologne',
-    'State': 'North Rhine-Westphalia',
-    'Country': 'Germany'
+    'city': 'Cologne',
+    'state': 'North Rhine-Westphalia',
+    'country': 'Germany'
 }, {
-    'Airport': 'Zhengzhou Airport',
+    'airport': 'Zhengzhou airport',
     'iata': 'CGO',
     'icao': 'ZHCC',
-    'City': 'Zhengzhou',
-    'State': 'Henan',
-    'Country': 'China'
+    'city': 'Zhengzhou',
+    'state': 'Henan',
+    'country': 'China'
 }, {
-    'Airport': 'Dafang Shen Airport',
+    'airport': 'Dafang Shen airport',
     'iata': 'CGQ',
     'icao': 'ZYCC',
-    'City': 'Changchun',
-    'State': 'Jilin',
-    'Country': 'China'
+    'city': 'Changchun',
+    'state': 'Jilin',
+    'country': 'China'
 }, {
-    'Airport': 'Campo Grande International Airport',
+    'airport': 'Campo Grande International airport',
     'iata': 'CGR',
     'icao': 'SBCG',
-    'City': 'Campo Grande',
-    'State': 'Mato Grosso do Sul',
-    'Country': 'Brazil'
+    'city': 'Campo Grande',
+    'state': 'Mato Grosso do Sul',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Charleston International Airport',
+    'airport': 'Charleston International airport',
     'iata': 'CHS',
     'icao': 'KCHS',
-    'City': 'North Charleston',
-    'State': 'South Carolina',
-    'Country': 'United States'
+    'city': 'North Charleston',
+    'state': 'South Carolina',
+    'country': 'United states'
 }, {
-    'Airport': 'Cap J A Quinones Gonzales Airport',
+    'airport': 'Cap J A Quinones Gonzales airport',
     'iata': 'CIX',
     'icao': 'SPHI',
-    'City': 'Chiclayo',
-    'State': 'Lambayeque',
-    'Country': 'Peru'
+    'city': 'Chiclayo',
+    'state': 'Lambayeque',
+    'country': 'Peru'
 }, {
-    'Airport': 'El Loa Airport',
+    'airport': 'El Loa airport',
     'iata': 'CJC',
     'icao': '',
-    'City': 'Calama',
-    'State': 'Antofagasta',
-    'Country': 'Chile'
+    'city': 'Calama',
+    'state': 'Antofagasta',
+    'country': 'Chile'
 }, {
-    'Airport': 'Cheju International Airport',
+    'airport': 'Cheju International airport',
     'iata': 'CJU',
     'icao': 'RKPC',
-    'City': 'Jeju-Si',
-    'State': 'Jaeju-Do',
-    'Country': 'South Korea'
+    'city': 'Jeju-Si',
+    'state': 'Jaeju-Do',
+    'country': 'South Korea'
 }, {
-    'Airport': 'Chongqing Jiangbei International',
+    'airport': 'Chongqing Jiangbei International',
     'iata': 'CKG',
     'icao': '',
-    'City': 'Chongqing',
-    'State': 'Chongqing',
-    'Country': 'China'
+    'city': 'Chongqing',
+    'state': 'Chongqing',
+    'country': 'China'
 }, {
-    'Airport': 'Hopkins International Airport',
+    'airport': 'Hopkins International airport',
     'iata': 'CLE',
     'icao': 'KCLE',
-    'City': 'Cleveland',
-    'State': 'Ohio',
-    'Country': 'United States'
+    'city': 'Cleveland',
+    'state': 'Ohio',
+    'country': 'United states'
 }, {
-    'Airport': 'Alfonso Bonilla Aragon International Airport',
+    'airport': 'Alfonso Bonilla Aragon International airport',
     'iata': 'CLO',
     'icao': 'SKCL',
-    'City': 'Obando',
-    'State': 'Valle del Cauca',
-    'Country': 'Colombia'
+    'city': 'Obando',
+    'state': 'Valle del Cauca',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Douglas International Airport',
+    'airport': 'Douglas International airport',
     'iata': 'CLT',
     'icao': 'KCLT',
-    'City': 'Charlotte',
-    'State': 'North Carolina',
-    'Country': 'United States'
+    'city': 'Charlotte',
+    'state': 'North Carolina',
+    'country': 'United states'
 }, {
-    'Airport': 'Port Columbus International Airport',
+    'airport': 'Port Columbus International airport',
     'iata': 'CMH',
     'icao': 'KCMH',
-    'City': 'Columbus',
-    'State': 'Ohio',
-    'Country': 'United States'
+    'city': 'Columbus',
+    'state': 'Ohio',
+    'country': 'United states'
 }, {
-    'Airport': 'Tancredo Neves International Airport',
+    'airport': 'Tancredo Neves International airport',
     'iata': 'CNF',
     'icao': 'SBCF',
-    'City': 'Confins',
-    'State': 'Minas Gerais',
-    'Country': 'Brazil'
+    'city': 'Confins',
+    'state': 'Minas Gerais',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Chiang Mai International Airport',
+    'airport': 'Chiang Mai International airport',
     'iata': 'CNX',
     'icao': 'VTCC',
-    'City': 'Chiang Mai',
-    'State': 'Roi Et',
-    'Country': 'Thailand'
+    'city': 'Chiang Mai',
+    'state': 'Roi Et',
+    'country': 'Thailand'
 }, {
-    'Airport': 'Kochi Airport',
+    'airport': 'Kochi airport',
     'iata': 'COK',
     'icao': 'VOCC',
-    'City': 'Kochi',
-    'State': 'Kerala',
-    'Country': 'India'
+    'city': 'Kochi',
+    'state': 'Kerala',
+    'country': 'India'
 }, {
-    'Airport': 'Ingeniero Ambrosio L.V. Taravella International ',
+    'airport': 'Ingeniero Ambrosio L.V. Taravella International ',
     'iata': 'COR',
     'icao': 'SACO',
-    'City': 'Cordoba',
-    'State': 'Cordoba',
-    'Country': 'Argentina'
+    'city': 'Cordoba',
+    'state': 'Cordoba',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Copenhagen Airport',
+    'airport': 'Copenhagen airport',
     'iata': 'CPH',
     'icao': 'EKCH',
-    'City': 'Kastrup',
-    'State': 'Hovedstaden',
-    'Country': 'Denmark'
+    'city': 'Kastrup',
+    'state': 'Hovedstaden',
+    'country': 'Denmark'
 }, {
-    'Airport': 'General Enrique Mosconi Airport',
+    'airport': 'General Enrique Mosconi airport',
     'iata': 'CRD',
     'icao': 'SAVC',
-    'City': 'Comodoro Rivadavia',
-    'State': 'Chubut',
-    'Country': 'Argentina'
+    'city': 'Comodoro Rivadavia',
+    'state': 'Chubut',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Huanghua Airport',
+    'airport': 'Huanghua airport',
     'iata': 'CSX',
     'icao': 'ZGHA',
-    'City': 'Changsha',
-    'State': 'Hunan',
-    'Country': 'China'
+    'city': 'Changsha',
+    'state': 'Hunan',
+    'country': 'China'
 }, {
-    'Airport': 'Catania Fontanarossa Airport',
+    'airport': 'Catania Fontanarossa airport',
     'iata': 'CTA',
     'icao': 'LICC',
-    'City': 'Catania',
-    'State': 'Sicily',
-    'Country': 'Italy'
+    'city': 'Catania',
+    'state': 'Sicily',
+    'country': 'Italy'
 }, {
-    'Airport': 'Rafael Nunez Airport',
+    'airport': 'Rafael Nunez airport',
     'iata': 'CTG',
     'icao': 'SKCG',
-    'City': 'La Boquilla',
-    'State': 'Bolivar',
-    'Country': 'Colombia'
+    'city': 'La Boquilla',
+    'state': 'Bolivar',
+    'country': 'Colombia'
 }, {
-    'Airport': 'New Chitose Airport',
+    'airport': 'New Chitose airport',
     'iata': 'CTS',
     'icao': 'RJCC',
-    'City': 'Chitose-shi',
-    'State': 'Hokkaido Prefecture',
-    'Country': 'Japan'
+    'city': 'Chitose-shi',
+    'state': 'Hokkaido Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Chengdushuang Liu Airport',
+    'airport': 'Chengdushuang Liu airport',
     'iata': 'CTU',
     'icao': 'ZUUU',
-    'City': 'Chengdu',
-    'State': 'Sichuan',
-    'Country': 'China'
+    'city': 'Chengdu',
+    'state': 'Sichuan',
+    'country': 'China'
 }, {
-    'Airport': 'Camilo Daza Airport',
+    'airport': 'Camilo Daza airport',
     'iata': 'CUC',
     'icao': 'SKCC',
-    'City': 'Cúcuta',
-    'State': 'Norte de Santander',
-    'Country': 'Colombia'
+    'city': 'Cúcuta',
+    'state': 'Norte de Santander',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Belize',
+    'airport': 'Belize',
     'iata': 'CUK',
     'icao': '',
-    'City': 'Caye Caulker',
-    'State': 'Belize',
-    'Country': 'Belize'
+    'city': 'Caye Caulker',
+    'state': 'Belize',
+    'country': 'Belize'
 }, {
-    'Airport': 'Cancun Airport',
+    'airport': 'Cancun airport',
     'iata': 'CUN',
     'icao': 'MMUN',
-    'City': 'Cancun',
-    'State': 'Quintana Roo',
-    'Country': 'Mexico'
+    'city': 'Cancun',
+    'state': 'Quintana Roo',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Velazco Astete Airport',
+    'airport': 'Velazco Astete airport',
     'iata': 'CUZ',
     'icao': 'SPZO',
-    'City': 'San Sebastián',
-    'State': 'Cusco',
-    'Country': 'Peru'
+    'city': 'San Sebastián',
+    'state': 'Cusco',
+    'country': 'Peru'
 }, {
-    'Airport': 'Greater Cincinnati International Airport',
+    'airport': 'Greater Cincinnati International airport',
     'iata': 'CVG',
     'icao': 'KCVG',
-    'City': 'Hebron',
-    'State': 'Ohio',
-    'Country': 'United States'
+    'city': 'Hebron',
+    'state': 'Ohio',
+    'country': 'United states'
 }, {
-    'Airport': 'Afonso Pena International Airport',
+    'airport': 'Afonso Pena International airport',
     'iata': 'CWB',
     'icao': 'SBCT',
-    'City': 'Sao Jose dos Pinhais',
-    'State': 'Parana',
-    'Country': 'Brazil'
+    'city': 'Sao Jose dos Pinhais',
+    'state': 'Parana',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Zia International Airport Dhaka',
+    'airport': 'Zia International airport Dhaka',
     'iata': 'DAC',
     'icao': 'VGZR',
-    'City': 'Dhaka',
-    'State': 'Dhaka',
-    'Country': 'Bangladesh'
+    'city': 'Dhaka',
+    'state': 'Dhaka',
+    'country': 'Bangladesh'
 }, {
-    'Airport': 'Dallas Love Field Airport',
+    'airport': 'Dallas Love Field airport',
     'iata': 'DAL',
     'icao': 'KDAL',
-    'City': 'Dallas',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'Dallas',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Washington National Airport',
+    'airport': 'Washington National airport',
     'iata': 'DCA',
     'icao': 'KDCA',
-    'City': 'Arlington',
-    'State': 'Virginia',
-    'Country': 'United States'
+    'city': 'Arlington',
+    'state': 'Virginia',
+    'country': 'United states'
 }, {
-    'Airport': 'Indira Gandhi International Airport',
+    'airport': 'Indira Gandhi International airport',
     'iata': 'DEL',
     'icao': 'VIDP',
-    'City': 'New Delhi',
-    'State': 'Madhya Pradesh',
-    'Country': 'India'
+    'city': 'New Delhi',
+    'state': 'Madhya Pradesh',
+    'country': 'India'
 }, {
-    'Airport': 'Denver International Airport',
+    'airport': 'Denver International airport',
     'iata': 'DEN',
     'icao': 'KDEN',
-    'City': 'Denver',
-    'State': 'Colorado',
-    'Country': 'United States'
+    'city': 'Denver',
+    'state': 'Colorado',
+    'country': 'United states'
 }, {
-    'Airport': 'Fort Worth International Airport',
+    'airport': 'Fort Worth International airport',
     'iata': 'DFW',
     'icao': 'KDFW',
-    'City': 'Dallas',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'Dallas',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Dangriga Airport',
+    'airport': 'Dangriga airport',
     'iata': 'DGA',
     'icao': '',
-    'City': 'Dangriga',
-    'State': 'Stann Creek',
-    'Country': 'Belize'
+    'city': 'Dangriga',
+    'state': 'Stann Creek',
+    'country': 'Belize'
 }, {
-    'Airport': 'Chou Shui Tzu Airport',
+    'airport': 'Chou Shui Tzu airport',
     'iata': 'DLC',
     'icao': 'KDLC',
-    'City': 'Dalian',
-    'State': 'Liaoning',
-    'Country': 'China'
+    'city': 'Dalian',
+    'state': 'Liaoning',
+    'country': 'China'
 }, {
-    'Airport': 'Domodedovo Airport',
+    'airport': 'Domodedovo airport',
     'iata': 'DME',
     'icao': 'UUDD',
-    'City': "Podol'sk",
-    'State': 'Moskovskaya Oblast',
-    'Country': 'Russia'
+    'city': "Podol'sk",
+    'state': 'Moskovskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Don Mueang',
+    'airport': 'Don Mueang',
     'iata': 'DMK',
     'icao': 'VTBD',
-    'City': 'Don Muang',
-    'State': 'Bangkok',
-    'Country': 'Thailand'
+    'city': 'Don Muang',
+    'state': 'Bangkok',
+    'country': 'Thailand'
 }, {
-    'Airport': 'Doha International Airport',
+    'airport': 'Doha International airport',
     'iata': 'DOH',
     'icao': 'OTBD',
-    'City': 'Doha',
-    'State': 'Doha',
-    'Country': 'Qatar'
+    'city': 'Doha',
+    'state': 'Doha',
+    'country': 'Qatar'
 }, {
-    'Airport': 'Bali International Airport',
+    'airport': 'Bali International airport',
     'iata': 'DPS',
     'icao': 'WADD',
-    'City': 'Denpasar',
-    'State': 'Bali',
-    'Country': 'Indonesia'
+    'city': 'Denpasar',
+    'state': 'Bali',
+    'country': 'Indonesia'
 }, {
-    'Airport': 'Des Moines International Airport',
+    'airport': 'Des Moines International airport',
     'iata': 'DSM',
     'icao': 'KDSM',
-    'City': 'Des Moines',
-    'State': 'Iowa',
-    'Country': 'United States'
+    'city': 'Des Moines',
+    'state': 'Iowa',
+    'country': 'United states'
 }, {
-    'Airport': 'Detroit Metropolitan Wayne County Airport',
+    'airport': 'Detroit Metropolitan Wayne County airport',
     'iata': 'DTW',
     'icao': 'KDTW',
-    'City': 'Detroit',
-    'State': 'Michigan',
-    'Country': 'United States'
+    'city': 'Detroit',
+    'state': 'Michigan',
+    'country': 'United states'
 }, {
-    'Airport': 'Dublin Airport',
+    'airport': 'Dublin airport',
     'iata': 'DUB',
     'icao': 'EIDW',
-    'City': 'Cloghran',
-    'State': '',
-    'Country': 'Ireland'
+    'city': 'Cloghran',
+    'state': '',
+    'country': 'Ireland'
 }, {
-    'Airport': 'Dusseldorf International Airport',
+    'airport': 'Dusseldorf International airport',
     'iata': 'DUS',
     'icao': 'EDDL',
-    'City': 'Dusseldorf',
-    'State': 'North Rhine-Westphalia',
-    'Country': 'Germany'
+    'city': 'Dusseldorf',
+    'state': 'North Rhine-Westphalia',
+    'country': 'Germany'
 }, {
-    'Airport': 'Dubai International Airport',
+    'airport': 'Dubai International airport',
     'iata': 'DXB',
     'icao': 'OMDB',
-    'City': 'Dubai',
-    'State': 'Dubai',
-    'Country': 'United Arab Emirates'
+    'city': 'Dubai',
+    'state': 'Dubai',
+    'country': 'United Arab Emirates'
 }, {
-    'Airport': 'Edinburgh International Airport',
+    'airport': 'Edinburgh International airport',
     'iata': 'EDI',
     'icao': 'EGPH',
-    'City': 'Edinburgh',
-    'State': 'Scotland',
-    'Country': 'United Kingdom'
+    'city': 'Edinburgh',
+    'state': 'Scotland',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Olaya Herrera Airport',
+    'airport': 'Olaya Herrera airport',
     'iata': 'EOH',
     'icao': 'SKMD',
-    'City': 'Medellin',
-    'State': 'Antioquia',
-    'Country': 'Colombia'
+    'city': 'Medellin',
+    'state': 'Antioquia',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Newark International Airport',
+    'airport': 'Newark International airport',
     'iata': 'EWR',
     'icao': 'KEWR',
-    'City': 'Newark',
-    'State': 'New Jersey',
-    'Country': 'United States'
+    'city': 'Newark',
+    'state': 'New Jersey',
+    'country': 'United states'
 }, {
-    'Airport': 'Ministro Pistarini International Airport',
+    'airport': 'Ministro Pistarini International airport',
     'iata': 'EZE',
     'icao': 'SAEZ',
-    'City': 'Ezeiza',
-    'State': 'Buenos Aires',
-    'Country': 'Argentina'
+    'city': 'Ezeiza',
+    'state': 'Buenos Aires',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Faro Airport',
+    'airport': 'Faro airport',
     'iata': 'FAO',
     'icao': 'LPFR',
-    'City': 'Faro',
-    'State': 'Faro',
-    'Country': 'Portugal'
+    'city': 'Faro',
+    'state': 'Faro',
+    'country': 'Portugal'
 }, {
-    'Airport': 'Leonardo da Vinci International Airport',
+    'airport': 'Leonardo da Vinci International airport',
     'iata': 'FCO',
     'icao': 'LIRF',
-    'City': 'Rome',
-    'State': 'Lazio',
-    'Country': 'Italy'
+    'city': 'Rome',
+    'state': 'Lazio',
+    'country': 'Italy'
 }, {
-    'Airport': 'Fort Lauderdale Hollywood International Airport',
+    'airport': 'Fort Lauderdale Hollywood International airport',
     'iata': 'FLL',
     'icao': 'KFLL',
-    'City': 'Dania Beach',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Dania Beach',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'Hercilio Luz International Airport',
+    'airport': 'Hercilio Luz International airport',
     'iata': 'FLN',
     'icao': '',
-    'City': 'Florianopolis',
-    'State': 'Santa Catarina',
-    'Country': 'Brazil'
+    'city': 'Florianopolis',
+    'state': 'Santa Catarina',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Fuzhou Airport',
+    'airport': 'Fuzhou airport',
     'iata': 'FOC',
     'icao': '',
-    'City': 'Fuzhou',
-    'State': 'Fujian',
-    'Country': 'China'
+    'city': 'Fuzhou',
+    'state': 'Fujian',
+    'country': 'China'
 }, {
-    'Airport': 'Pinto Martins International Airport',
+    'airport': 'Pinto Martins International airport',
     'iata': 'FOR',
     'icao': 'SBFZ',
-    'City': 'Fortaleza',
-    'State': 'Ceara',
-    'Country': 'Brazil'
+    'city': 'Fortaleza',
+    'state': 'Ceara',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Frankfurt International Airport',
+    'airport': 'Frankfurt International airport',
     'iata': 'FRA',
     'icao': 'EDDF',
-    'City': 'Frankfurt',
-    'State': 'Hesse',
-    'Country': 'Germany'
+    'city': 'Frankfurt',
+    'state': 'Hesse',
+    'country': 'Germany'
 }, {
-    'Airport': 'El Calafate International Airport',
+    'airport': 'El Calafate International airport',
     'iata': 'FTE',
     'icao': '',
-    'City': 'El Calafate',
-    'State': 'Santa Cruz',
-    'Country': 'Argentina'
+    'city': 'El Calafate',
+    'state': 'Santa Cruz',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Puerto del Rosario Airport',
+    'airport': 'Puerto del Rosario airport',
     'iata': 'FUE',
     'icao': 'GCFV',
-    'City': 'Antigua',
-    'State': 'Canary Islands',
-    'Country': 'Spain'
+    'city': 'Antigua',
+    'state': 'Canary Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'Fukuoka Airport',
+    'airport': 'Fukuoka airport',
     'iata': 'FUK',
     'icao': 'RJFF',
-    'City': 'Fukuoka-shi',
-    'State': 'Fukuoka Prefecture',
-    'Country': 'Japan'
+    'city': 'Fukuoka-shi',
+    'state': 'Fukuoka Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Don Miguel Hidalgo International Airport',
+    'airport': 'Don Miguel Hidalgo International airport',
     'iata': 'GDL',
     'icao': 'MMGL',
-    'City': 'Tlajomulco de Zúñiga',
-    'State': 'Jalisco',
-    'Country': 'Mexico'
+    'city': 'Tlajomulco de Zúñiga',
+    'state': 'Jalisco',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Rebiechowo Airport',
+    'airport': 'Rebiechowo airport',
     'iata': 'GDN',
     'icao': 'EPGD',
-    'City': 'Gdansk',
-    'State': 'Pomorskie',
-    'Country': 'Poland'
+    'city': 'Gdansk',
+    'state': 'Pomorskie',
+    'country': 'Poland'
 }, {
-    'Airport': 'Spokane International Airport',
+    'airport': 'Spokane International airport',
     'iata': 'GEG',
     'icao': 'KGEG',
-    'City': 'Spokane',
-    'State': 'Washington',
-    'Country': 'United States'
+    'city': 'Spokane',
+    'state': 'Washington',
+    'country': 'United states'
 }, {
-    'Airport': 'Timehri International Airport',
+    'airport': 'Timehri International airport',
     'iata': 'GEO',
     'icao': 'SYCJ',
-    'City': 'Hyde Park',
-    'State': 'Demerara-Mahaica',
-    'Country': 'Guyana'
+    'city': 'Hyde Park',
+    'state': 'Demerara-Mahaica',
+    'country': 'Guyana'
 }, {
-    'Airport': 'Rio de Janeiro-Antonio Carlos Jobim Internationa',
+    'airport': 'Rio de Janeiro-Antonio Carlos Jobim Internationa',
     'iata': 'GIG',
     'icao': 'SBGL',
-    'City': 'Rio de Janeiro',
-    'State': 'Rio de Janeiro',
-    'Country': 'Brazil'
+    'city': 'Rio de Janeiro',
+    'state': 'Rio de Janeiro',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Glasgow International Airport',
+    'airport': 'Glasgow International airport',
     'iata': 'GLA',
     'icao': 'EGPF',
-    'City': 'Paisley',
-    'State': 'Scotland',
-    'Country': 'United Kingdom'
+    'city': 'Paisley',
+    'state': 'Scotland',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Gimpo International Airport',
+    'airport': 'Gimpo International airport',
     'iata': 'GMP',
     'icao': 'RKSS',
-    'City': 'Seoul',
-    'State': 'Seoul',
-    'Country': 'South Korea'
+    'city': 'Seoul',
+    'state': 'Seoul',
+    'country': 'South Korea'
 }, {
-    'Airport': 'Dabolim Airport',
+    'airport': 'Dabolim airport',
     'iata': 'GOI',
     'icao': '',
-    'City': 'Vasco Da Gama',
-    'State': 'Goa',
-    'Country': 'India'
+    'city': 'Vasco Da Gama',
+    'state': 'Goa',
+    'country': 'India'
 }, {
-    'Airport': 'Gothenburg Airport',
+    'airport': 'Gothenburg airport',
     'iata': 'GOT',
     'icao': 'ESGG',
-    'City': 'Härryda',
-    'State': 'Vastra Gotaland',
-    'Country': 'Sweden'
+    'city': 'Härryda',
+    'state': 'Vastra Gotaland',
+    'country': 'Sweden'
 }, {
-    'Airport': 'Gerald R. Ford International Airport',
+    'airport': 'Gerald R. Ford International airport',
     'iata': 'GRR',
     'icao': 'KGRR',
-    'City': 'Grand Rapids',
-    'State': 'Michigan',
-    'Country': 'United States'
+    'city': 'Grand Rapids',
+    'state': 'Michigan',
+    'country': 'United states'
 }, {
-    'Airport': 'Governador Andre Franco Montoro International Ai',
+    'airport': 'Governador Andre Franco Montoro International Ai',
     'iata': 'GRU',
     'icao': 'SBGR',
-    'City': 'Guarulhos',
-    'State': 'Sao Paulo',
-    'Country': 'Brazil'
+    'city': 'Guarulhos',
+    'state': 'Sao Paulo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Geneva Airport',
+    'airport': 'Geneva airport',
     'iata': 'GVA',
     'icao': 'LSGG',
-    'City': 'Geneva',
-    'State': 'Canton of Geneva',
-    'Country': 'Switzerland'
+    'city': 'Geneva',
+    'state': 'Canton of Geneva',
+    'country': 'Switzerland'
 }, {
-    'Airport': 'Simon Bolivar International Airport',
+    'airport': 'Simon Bolivar International airport',
     'iata': 'GYE',
     'icao': 'SEGU',
-    'City': 'Guayaquil',
-    'State': 'Guayas',
-    'Country': 'Ecuador'
+    'city': 'Guayaquil',
+    'state': 'Guayas',
+    'country': 'Ecuador'
 }, {
-    'Airport': 'Santa Genoveva Airport',
+    'airport': 'Santa Genoveva airport',
     'iata': 'GYN',
     'icao': '',
-    'City': 'Goiania',
-    'State': 'Goias',
-    'Country': 'Brazil'
+    'city': 'Goiania',
+    'state': 'Goias',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Haikou Airport',
+    'airport': 'Haikou airport',
     'iata': 'HAK',
     'icao': '',
-    'City': 'Haikou',
-    'State': 'Hainan',
-    'Country': 'China'
+    'city': 'Haikou',
+    'state': 'Hainan',
+    'country': 'China'
 }, {
-    'Airport': 'Hamburg Airport',
+    'airport': 'Hamburg airport',
     'iata': 'HAM',
     'icao': 'EDDH',
-    'City': 'Hamburg',
-    'State': 'Hamburg',
-    'Country': 'Germany'
+    'city': 'Hamburg',
+    'state': 'Hamburg',
+    'country': 'Germany'
 }, {
-    'Airport': 'Noi Bai Airport',
+    'airport': 'Noi Bai airport',
     'iata': 'HAN',
     'icao': 'VVNB',
-    'City': 'Hanoi',
-    'State': 'Ha Noi',
-    'Country': 'Vietnam'
+    'city': 'Hanoi',
+    'state': 'Ha Noi',
+    'country': 'Vietnam'
 }, {
-    'Airport': 'Helsinki Vantaa Airport',
+    'airport': 'Helsinki Vantaa airport',
     'iata': 'HEL',
     'icao': 'EFHK',
-    'City': 'Vantaa',
-    'State': 'Southern Finland',
-    'Country': 'Finland'
+    'city': 'Vantaa',
+    'state': 'Southern Finland',
+    'country': 'Finland'
 }, {
-    'Airport': 'Iraklion Airport',
+    'airport': 'Iraklion airport',
     'iata': 'HER',
     'icao': 'LGIR',
-    'City': 'Iraklio',
-    'State': 'Kriti',
-    'Country': 'Greece'
+    'city': 'Iraklio',
+    'state': 'Kriti',
+    'country': 'Greece'
 }, {
-    'Airport': 'Huhehaote Airport',
+    'airport': 'Huhehaote airport',
     'iata': 'HET',
     'icao': 'ZBHH',
-    'City': 'Hohhot',
-    'State': 'Nei Mongol',
-    'Country': 'China'
+    'city': 'Hohhot',
+    'state': 'Nei Mongol',
+    'country': 'China'
 }, {
-    'Airport': 'Hefei-Luogang Airport',
+    'airport': 'Hefei-Luogang airport',
     'iata': 'HFE',
     'icao': '',
-    'City': 'Hefei',
-    'State': 'Anhui',
-    'Country': 'China'
+    'city': 'Hefei',
+    'state': 'Anhui',
+    'country': 'China'
 }, {
-    'Airport': 'Jianoiao Airport',
+    'airport': 'Jianoiao airport',
     'iata': 'HGH',
     'icao': 'ZSHC',
-    'City': 'Hangzhou',
-    'State': 'Zhejiang',
-    'Country': 'China'
+    'city': 'Hangzhou',
+    'state': 'Zhejiang',
+    'country': 'China'
 }, {
-    'Airport': 'Hong Kong International Airport',
+    'airport': 'Hong Kong International airport',
     'iata': 'HKG',
     'icao': 'VHHH',
-    'City': 'Hong Kong',
-    'State': 'Hong Kong Island',
-    'Country': 'Hong Kong'
+    'city': 'Hong Kong',
+    'state': 'Hong Kong Island',
+    'country': 'Hong Kong'
 }, {
-    'Airport': 'Tokyo International Airport',
+    'airport': 'Tokyo International airport',
     'iata': 'HND',
     'icao': 'KHND',
-    'City': 'Tokyo',
-    'State': 'Tokyo Prefecture',
-    'Country': 'Japan'
+    'city': 'Tokyo',
+    'state': 'Tokyo Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Honolulu International Airport',
+    'airport': 'Honolulu International airport',
     'iata': 'HNL',
     'icao': 'PHNL',
-    'City': 'Honolulu',
-    'State': 'Hawaii',
-    'Country': 'United States'
+    'city': 'Honolulu',
+    'state': 'Hawaii',
+    'country': 'United states'
 }, {
-    'Airport': 'William P Hobby Airport',
+    'airport': 'William P Hobby airport',
     'iata': 'HOU',
     'icao': 'KHOU',
-    'City': 'Houston',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'Houston',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Harbin Yangjiagang Airport',
+    'airport': 'Harbin Yangjiagang airport',
     'iata': 'HRB',
     'icao': 'ZYHB',
-    'City': 'Harbin',
-    'State': 'Heilongjiang',
-    'Country': 'China'
+    'city': 'Harbin',
+    'state': 'Heilongjiang',
+    'country': 'China'
 }, {
-    'Airport': 'Begumpet Airport',
+    'airport': 'Begumpet airport',
     'iata': 'HYD',
     'icao': 'VOHY',
-    'City': 'Hyderabad',
-    'State': 'Andhra Pradesh',
-    'Country': 'India'
+    'city': 'Hyderabad',
+    'state': 'Andhra Pradesh',
+    'country': 'India'
 }, {
-    'Airport': 'Dulles International Airport',
+    'airport': 'Dulles International airport',
     'iata': 'IAD',
     'icao': 'KIAD',
-    'City': 'Washington',
-    'State': 'Virginia',
-    'Country': 'United States'
+    'city': 'Washington',
+    'state': 'Virginia',
+    'country': 'United states'
 }, {
-    'Airport': 'George Bush Intercontinental Airport',
+    'airport': 'George Bush Intercontinental airport',
     'iata': 'IAH',
     'icao': 'KIAH',
-    'City': 'Houston',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'Houston',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Ibiza Airport',
+    'airport': 'Ibiza airport',
     'iata': 'IBZ',
     'icao': 'LEIB',
-    'City': 'San José',
-    'State': 'Balearic Islands',
-    'Country': 'Spain'
+    'city': 'San José',
+    'state': 'Balearic Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'New Incheon International Airport',
+    'airport': 'New Incheon International airport',
     'iata': 'ICN',
     'icao': 'RKSI',
-    'City': 'Incheon',
-    'State': 'Incheon',
-    'Country': 'South Korea'
+    'city': 'Incheon',
+    'state': 'Incheon',
+    'country': 'South Korea'
 }, {
-    'Airport': 'Cataratas del Iguazu Airport',
+    'airport': 'Cataratas del Iguazu airport',
     'iata': 'IGR',
     'icao': '',
-    'City': 'Puerto Esperanza',
-    'State': 'Misiones',
-    'Country': 'Argentina'
+    'city': 'Puerto Esperanza',
+    'state': 'Misiones',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Cataratas International Airport',
+    'airport': 'Cataratas International airport',
     'iata': 'IGU',
     'icao': 'SBFI',
-    'City': 'Foz do Iguacu',
-    'State': 'Parana',
-    'Country': 'Brazil'
+    'city': 'Foz do Iguacu',
+    'state': 'Parana',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Yinchuan Airport',
+    'airport': 'Yinchuan airport',
     'iata': 'INC',
     'icao': '',
-    'City': 'Yinchuan',
-    'State': 'Ningxia',
-    'Country': 'China'
+    'city': 'Yinchuan',
+    'state': 'Ningxia',
+    'country': 'China'
 }, {
-    'Airport': 'Indianapolis International Airport',
+    'airport': 'Indianapolis International airport',
     'iata': 'IND',
     'icao': 'KIND',
-    'City': 'Indianapolis',
-    'State': 'Indiana',
-    'Country': 'United States'
+    'city': 'Indianapolis',
+    'state': 'Indiana',
+    'country': 'United states'
 }, {
-    'Airport': 'Jorge Amado Airport',
+    'airport': 'Jorge Amado airport',
     'iata': 'IOS',
     'icao': '',
-    'City': 'Ilhéus',
-    'State': 'Bahia',
-    'Country': 'Brazil'
+    'city': 'Ilhéus',
+    'state': 'Bahia',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Diego Aracena International Airport',
+    'airport': 'Diego Aracena International airport',
     'iata': 'IQQ',
     'icao': 'SCDA',
-    'City': 'Alto Hospicio',
-    'State': 'Tarapaca',
-    'Country': 'Chile'
+    'city': 'Alto Hospicio',
+    'state': 'Tarapaca',
+    'country': 'Chile'
 }, {
-    'Airport': 'Cnl Fap Fran Seca Vignetta Airport',
+    'airport': 'Cnl Fap Fran Seca Vignetta airport',
     'iata': 'IQT',
     'icao': 'SPQT',
-    'City': 'Iquitos',
-    'State': 'Loreto',
-    'Country': 'Peru'
+    'city': 'Iquitos',
+    'state': 'Loreto',
+    'country': 'Peru'
 }, {
-    'Airport': 'Ataturk Hava Limani Airport',
+    'airport': 'Ataturk Hava Limani airport',
     'iata': 'IST',
     'icao': 'LTBA',
-    'City': 'Bakırköy',
-    'State': 'Istanbul',
-    'Country': 'Turkey'
+    'city': 'Bakırköy',
+    'state': 'Istanbul',
+    'country': 'Turkey'
 }, {
-    'Airport': 'Osaka International Airport',
+    'airport': 'Osaka International airport',
     'iata': 'ITM',
     'icao': 'RJOO',
-    'City': 'Itami-shi',
-    'State': 'Hyogo Prefecture',
-    'Country': 'Japan'
+    'city': 'Itami-shi',
+    'state': 'Hyogo Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Jacksonville International Airport',
+    'airport': 'Jacksonville International airport',
     'iata': 'JAX',
     'icao': 'KJAX',
-    'City': 'Jacksonville',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Jacksonville',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'Cariri Regional Airport',
+    'airport': 'Cariri Regional airport',
     'iata': 'JDO',
     'icao': '',
-    'City': 'Juazeiro do Norte',
-    'State': 'Ceara',
-    'Country': 'Brazil'
+    'city': 'Juazeiro do Norte',
+    'state': 'Ceara',
+    'country': 'Brazil'
 }, {
-    'Airport': 'King Abdul Aziz International Airport',
+    'airport': 'King Abdul Aziz International airport',
     'iata': 'JED',
     'icao': 'OEJN',
-    'City': 'Jeddah',
-    'State': 'Makka',
-    'Country': 'Saudi Arabia'
+    'city': 'Jeddah',
+    'state': 'Makka',
+    'country': 'Saudi Arabia'
 }, {
-    'Airport': 'John F Kennedy International Airport',
+    'airport': 'John F Kennedy International airport',
     'iata': 'JFK',
     'icao': 'KJFK',
-    'City': 'Jamaica',
-    'State': 'New York',
-    'Country': 'United States'
+    'city': 'Jamaica',
+    'state': 'New York',
+    'country': 'United states'
 }, {
-    'Airport': 'Jinjiang',
+    'airport': 'Jinjiang',
     'iata': 'JJN',
     'icao': 'ZBDX',
-    'City': 'Jinjiang',
-    'State': 'Fujian',
-    'Country': 'China'
+    'city': 'Jinjiang',
+    'state': 'Fujian',
+    'country': 'China'
 }, {
-    'Airport': 'Presidente Castro Pinto International Airport',
+    'airport': 'Presidente Castro Pinto International airport',
     'iata': 'JPA',
     'icao': 'SBJP',
-    'City': 'Santa Rita',
-    'State': 'Paraiba',
-    'Country': 'Brazil'
+    'city': 'Santa Rita',
+    'state': 'Paraiba',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Juliaca Airport',
+    'airport': 'Juliaca airport',
     'iata': 'JUL',
     'icao': 'SPJL',
-    'City': 'Juliaca',
-    'State': 'Puno',
-    'Country': 'Peru'
+    'city': 'Juliaca',
+    'state': 'Puno',
+    'country': 'Peru'
 }, {
-    'Airport': 'Borispol Airport',
+    'airport': 'Borispol airport',
     'iata': 'KBP',
     'icao': 'UKBB',
-    'City': 'Kiev',
-    'State': 'Kyyivs´ka Oblast´',
-    'Country': 'Ukraine'
+    'city': 'Kiev',
+    'state': 'Kyyivs´ka Oblast´',
+    'country': 'Ukraine'
 }, {
-    'Airport': 'Keflavik International',
+    'airport': 'Keflavik International',
     'iata': 'KEF',
     'icao': 'BIKF',
-    'City': 'Reykjavik',
-    'State': 'Keflavik',
-    'Country': 'Iceland'
+    'city': 'Reykjavik',
+    'state': 'Keflavik',
+    'country': 'Iceland'
 }, {
-    'Airport': 'Kaliningradskaya Oblast',
+    'airport': 'Kaliningradskaya Oblast',
     'iata': 'KGD',
     'icao': '',
-    'City': 'Kaliningrad',
-    'State': 'Kaliningradskaya Oblast',
-    'Country': 'Russia'
+    'city': 'Kaliningrad',
+    'state': 'Kaliningradskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Nanchang New Airport',
+    'airport': 'Nanchang New airport',
     'iata': 'KHN',
     'icao': '',
-    'City': 'Nanchang',
-    'State': 'Jiangxi',
-    'Country': 'China'
+    'city': 'Nanchang',
+    'state': 'Jiangxi',
+    'country': 'China'
 }, {
-    'Airport': 'Kansai International Airport',
+    'airport': 'Kansai International airport',
     'iata': 'KIX',
     'icao': 'RJBB',
-    'City': 'Tajiri-cho',
-    'State': 'Osaka Prefecture',
-    'Country': 'Japan'
+    'city': 'Tajiri-cho',
+    'state': 'Osaka Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Yelovaya Airport',
+    'airport': 'Yelovaya airport',
     'iata': 'KJA',
     'icao': 'UNKL',
-    'City': 'Kansk',
-    'State': 'Krasnoyarskiy Kray',
-    'Country': 'Russia'
+    'city': 'Kansk',
+    'state': 'Krasnoyarskiy Kray',
+    'country': 'Russia'
 }, {
-    'Airport': 'Wuchia Pa Airport',
+    'airport': 'Wuchia Pa airport',
     'iata': 'KMG',
     'icao': 'ZPPP',
-    'City': 'Kunming',
-    'State': 'Yunnan',
-    'Country': 'China'
+    'city': 'Kunming',
+    'state': 'Yunnan',
+    'country': 'China'
 }, {
-    'Airport': 'Kailua-Kona International Airport',
+    'airport': 'Kailua-Kona International airport',
     'iata': 'KOA',
     'icao': 'PHKO',
-    'City': 'Kailua Kona',
-    'State': 'Hawaii',
-    'Country': 'United States'
+    'city': 'Kailua Kona',
+    'state': 'Hawaii',
+    'country': 'United states'
 }, {
-    'Airport': 'Kagoshima Airport',
+    'airport': 'Kagoshima airport',
     'iata': 'KOJ',
     'icao': 'RJFK',
-    'City': 'Kirishima-shi',
-    'State': 'Kagoshima Prefecture',
-    'Country': 'Japan'
+    'city': 'Kirishima-shi',
+    'state': 'Kagoshima Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Balice Airport',
+    'airport': 'Balice airport',
     'iata': 'KRK',
     'icao': 'EPKK',
-    'City': 'Zabierzów',
-    'State': 'Małopolskie',
-    'Country': 'Poland'
+    'city': 'Zabierzów',
+    'state': 'Małopolskie',
+    'country': 'Poland'
 }, {
-    'Airport': 'Krasnodar-Pashovskiy Airport',
+    'airport': 'Krasnodar-Pashovskiy airport',
     'iata': 'KRR',
     'icao': '',
-    'City': 'Krasnodar',
-    'State': 'Krasnodarskiy Kray',
-    'Country': 'Russia'
+    'city': 'Krasnodar',
+    'state': 'Krasnodarskiy Kray',
+    'country': 'Russia'
 }, {
-    'Airport': 'Tribhuvan International Airport',
+    'airport': 'Tribhuvan International airport',
     'iata': 'KTM',
     'icao': '',
-    'City': 'Kathmandu',
-    'State': 'Central',
-    'Country': 'Nepal'
+    'city': 'Kathmandu',
+    'state': 'Central',
+    'country': 'Nepal'
 }, {
-    'Airport': 'Kurumoch Airport',
+    'airport': 'Kurumoch airport',
     'iata': 'KUF',
     'icao': '',
-    'City': "Syzran'",
-    'State': 'Samarskaya Oblast',
-    'Country': 'Russia'
+    'city': "Syzran'",
+    'state': 'Samarskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Kuala Lumpur International Airport',
+    'airport': 'Kuala Lumpur International airport',
     'iata': 'KUL',
     'icao': 'WMKK',
-    'City': 'Sepang',
-    'State': 'Putrajaya',
-    'Country': 'Malaysia'
+    'city': 'Sepang',
+    'state': 'Putrajaya',
+    'country': 'Malaysia'
 }, {
-    'Airport': 'Guizhou',
+    'airport': 'Guizhou',
     'iata': 'KWE',
     'icao': '',
-    'City': 'Guiyang',
-    'State': 'Guizhou',
-    'Country': 'China'
+    'city': 'Guiyang',
+    'state': 'Guizhou',
+    'country': 'China'
 }, {
-    'Airport': 'Li Chia Tsun Airport',
+    'airport': 'Li Chia Tsun airport',
     'iata': 'KWL',
     'icao': '',
-    'City': 'Guilin',
-    'State': 'Guangxi',
-    'Country': 'China'
+    'city': 'Guilin',
+    'state': 'Guangxi',
+    'country': 'China'
 }, {
-    'Airport': 'Kirbi Airport',
+    'airport': 'Kirbi airport',
     'iata': 'KZN',
     'icao': '',
-    'City': "Zelenodol'sk",
-    'State': 'Tatarstan',
-    'Country': 'Russia'
+    'city': "Zelenodol'sk",
+    'state': 'Tatarstan',
+    'country': 'Russia'
 }, {
-    'Airport': 'Mccarran International Airport',
+    'airport': 'Mccarran International airport',
     'iata': 'LAS',
     'icao': 'KLAS',
-    'City': 'Las Vegas',
-    'State': 'Nevada',
-    'Country': 'United States'
+    'city': 'Las Vegas',
+    'state': 'Nevada',
+    'country': 'United states'
 }, {
-    'Airport': 'Los Angeles International Airport',
+    'airport': 'Los Angeles International airport',
     'iata': 'LAX',
     'icao': 'KLAX',
-    'City': 'Los Angeles',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Los Angeles',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Londrina Airport',
+    'airport': 'Londrina airport',
     'iata': 'LDB',
     'icao': '',
-    'City': 'Londrina',
-    'State': 'Parana',
-    'Country': 'Brazil'
+    'city': 'Londrina',
+    'state': 'Parana',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Pulkuvo 2 Airport',
+    'airport': 'Pulkuvo 2 airport',
     'iata': 'LED',
     'icao': 'ULLI',
-    'City': 'St. Petersburg',
-    'State': 'St. Peterburg',
-    'Country': 'Russia'
+    'city': 'St. Petersburg',
+    'state': 'St. Peterburg',
+    'country': 'Russia'
 }, {
-    'Airport': 'LaGuardia Airport',
+    'airport': 'LaGuardia airport',
     'iata': 'LGA',
     'icao': 'KLGA',
-    'City': 'Flushing',
-    'State': 'New York',
-    'Country': 'United States'
+    'city': 'Flushing',
+    'state': 'New York',
+    'country': 'United states'
 }, {
-    'Airport': 'London Gatwick Airport',
+    'airport': 'London Gatwick airport',
     'iata': 'LGW',
     'icao': '',
-    'City': 'Horley',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Horley',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'London Heathrow Airport',
+    'airport': 'London Heathrow airport',
     'iata': 'LHR',
     'icao': 'EGLL',
-    'City': 'Hounslow',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Hounslow',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Lanzhou Airport',
+    'airport': 'Lanzhou airport',
     'iata': 'LHW',
     'icao': 'KLHW',
-    'City': 'Lanzhou',
-    'State': '甘肃省',
-    'Country': 'China'
+    'city': 'Lanzhou',
+    'state': '甘肃省',
+    'country': 'China'
 }, {
-    'Airport': 'Lihue Airport',
+    'airport': 'Lihue airport',
     'iata': 'LIH',
     'icao': 'PHLI',
-    'City': 'Lihue',
-    'State': 'Hawaii',
-    'Country': 'United States'
+    'city': 'Lihue',
+    'state': 'Hawaii',
+    'country': 'United states'
 }, {
-    'Airport': 'Jorge Chavez Airport',
+    'airport': 'Jorge Chavez airport',
     'iata': 'LIM',
     'icao': 'SPIM',
-    'City': 'Ventanilla',
-    'State': 'Provincia Constitucional del Cal',
-    'Country': 'Peru'
+    'city': 'Ventanilla',
+    'state': 'Provincia Constitucional del Cal',
+    'country': 'Peru'
 }, {
-    'Airport': 'Linate Airport',
+    'airport': 'Linate airport',
     'iata': 'LIN',
     'icao': 'LIML',
-    'City': 'Peschiera Borromeo',
-    'State': 'Lombardy',
-    'Country': 'Italy'
+    'city': 'Peschiera Borromeo',
+    'state': 'Lombardy',
+    'country': 'Italy'
 }, {
-    'Airport': 'Lisbon Airport',
+    'airport': 'Lisbon airport',
     'iata': 'LIS',
     'icao': 'LPPT',
-    'City': 'Lisbon',
-    'State': 'Lisbon',
-    'Country': 'Portugal'
+    'city': 'Lisbon',
+    'state': 'Lisbon',
+    'country': 'Portugal'
 }, {
-    'Airport': 'Lijiang',
+    'airport': 'Lijiang',
     'iata': 'LJG',
     'icao': '',
-    'City': 'Lijiang City',
-    'State': '山东省',
-    'Country': 'China'
+    'city': 'Lijiang city',
+    'state': '山东省',
+    'country': 'China'
 }, {
-    'Airport': 'Las Palmas Airport',
+    'airport': 'Las Palmas airport',
     'iata': 'LPA',
     'icao': '',
-    'City': 'Telde',
-    'State': 'Canary Islands',
-    'Country': 'Spain'
+    'city': 'Telde',
+    'state': 'Canary Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'El Alto International Airport',
+    'airport': 'El Alto International airport',
     'iata': 'LPB',
     'icao': 'SLLP',
-    'City': 'La Paz',
-    'State': 'La Paz',
-    'Country': 'Bolivia'
+    'city': 'La Paz',
+    'state': 'La Paz',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'La Florida Airport',
+    'airport': 'La Florida airport',
     'iata': 'LSC',
     'icao': '',
-    'City': 'Compañía Alta',
-    'State': 'Coquimbo',
-    'Country': 'Chile'
+    'city': 'Compañía Alta',
+    'state': 'Coquimbo',
+    'country': 'Chile'
 }, {
-    'Airport': 'London Luton Airport',
+    'airport': 'London Luton airport',
     'iata': 'LTN',
     'icao': 'EGGW',
-    'City': 'Luton',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Luton',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Luxembourg Airport',
+    'airport': 'Luxembourg airport',
     'iata': 'LUX',
     'icao': 'ELLX',
-    'City': 'Sandweiler',
-    'State': 'Luxemburg',
-    'Country': 'Luxembourg'
+    'city': 'Sandweiler',
+    'state': 'Luxemburg',
+    'country': 'Luxembourg'
 }, {
-    'Airport': 'Lyon Airport',
+    'airport': 'Lyon airport',
     'iata': 'LYS',
     'icao': 'LFLL',
-    'City': 'Colombier',
-    'State': 'Rhone-Alpes',
-    'Country': 'France'
+    'city': 'Colombier',
+    'state': 'Rhone-Alpes',
+    'country': 'France'
 }, {
-    'Airport': 'Chennai International Airport',
+    'airport': 'Chennai International airport',
     'iata': 'MAA',
     'icao': 'VOMM',
-    'City': 'Kanchipuram',
-    'State': 'Tamil Nadu',
-    'Country': 'India'
+    'city': 'Kanchipuram',
+    'state': 'Tamil Nadu',
+    'country': 'India'
 }, {
-    'Airport': 'Barajas Airport',
+    'airport': 'Barajas airport',
     'iata': 'MAD',
     'icao': 'LEMD',
-    'City': 'Madrid',
-    'State': 'Madrid',
-    'Country': 'Spain'
+    'city': 'Madrid',
+    'state': 'Madrid',
+    'country': 'Spain'
 }, {
-    'Airport': 'Manchester International Airport',
+    'airport': 'Manchester International airport',
     'iata': 'MAN',
     'icao': 'EGCC',
-    'City': 'Manchester',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Manchester',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Eduardo Gomes International Airport',
+    'airport': 'Eduardo Gomes International airport',
     'iata': 'MAO',
     'icao': 'KMAO',
-    'City': 'Manaus',
-    'State': 'Amazonas',
-    'Country': 'Brazil'
+    'city': 'Manaus',
+    'state': 'Amazonas',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Kansas City International Airport',
+    'airport': 'Kansas city International airport',
     'iata': 'MCI',
     'icao': 'KMCI',
-    'City': 'Kansas City',
-    'State': 'Missouri',
-    'Country': 'United States'
+    'city': 'Kansas city',
+    'state': 'Missouri',
+    'country': 'United states'
 }, {
-    'Airport': 'Monte Carlo Heliport',
+    'airport': 'Monte Carlo Heliport',
     'iata': 'MCM',
     'icao': '',
-    'City': 'Monaco-Ville',
-    'State': 'La Condamine',
-    'Country': 'Monaco'
+    'city': 'Monaco-Ville',
+    'state': 'La Condamine',
+    'country': 'Monaco'
 }, {
-    'Airport': 'Orlando International Airport',
+    'airport': 'Orlando International airport',
     'iata': 'MCO',
     'icao': 'KMCO',
-    'City': 'Orlando',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Orlando',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'Macapa International Airport',
+    'airport': 'Macapa International airport',
     'iata': 'MCP',
     'icao': '',
-    'City': 'Macapá',
-    'State': 'Amapa',
-    'Country': 'Brazil'
+    'city': 'Macapá',
+    'state': 'Amapa',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Seeb International Airport',
+    'airport': 'Seeb International airport',
     'iata': 'MCT',
     'icao': 'OOMS',
-    'City': 'Muscat',
-    'State': 'Masqat',
-    'Country': 'Oman'
+    'city': 'Muscat',
+    'state': 'Masqat',
+    'country': 'Oman'
 }, {
-    'Airport': 'Zumbi dos Palmares International Airport',
+    'airport': 'Zumbi dos Palmares International airport',
     'iata': 'MCZ',
     'icao': 'KMCZ',
-    'City': 'Maceio',
-    'State': 'Alagoas',
-    'Country': 'Brazil'
+    'city': 'Maceio',
+    'state': 'Alagoas',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Jose Maria Cordova Airport',
+    'airport': 'Jose Maria Cordova airport',
     'iata': 'MDE',
     'icao': 'SKRG',
-    'City': 'Ríonegro',
-    'State': 'Antioquia',
-    'Country': 'Colombia'
+    'city': 'Ríonegro',
+    'state': 'Antioquia',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Mar del Plata Airport',
+    'airport': 'Mar del Plata airport',
     'iata': 'MDQ',
     'icao': 'KMDQ',
-    'City': 'Mar del Plata',
-    'State': 'Buenos Aires',
-    'Country': 'Argentina'
+    'city': 'Mar del Plata',
+    'state': 'Buenos Aires',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Chicago Midway International Airport',
+    'airport': 'Chicago Midway International airport',
     'iata': 'MDW',
     'icao': 'KMDW',
-    'City': 'Chicago',
-    'State': 'Illinois',
-    'Country': 'United States'
+    'city': 'Chicago',
+    'state': 'Illinois',
+    'country': 'United states'
 }, {
-    'Airport': 'El Plumerillo Airport',
+    'airport': 'El Plumerillo airport',
     'iata': 'MDZ',
     'icao': 'KMDZ',
-    'City': 'Mendoza',
-    'State': 'Mendoza',
-    'Country': 'Argentina'
+    'city': 'Mendoza',
+    'state': 'Mendoza',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Memphis International Airport',
+    'airport': 'Memphis International airport',
     'iata': 'MEM',
     'icao': 'KMEM',
-    'City': 'Memphis',
-    'State': 'Tennessee',
-    'Country': 'United States'
+    'city': 'Memphis',
+    'state': 'Tennessee',
+    'country': 'United states'
 }, {
-    'Airport': 'Lic Benito Juarez International Airport',
+    'airport': 'Lic Benito Juarez International airport',
     'iata': 'MEX',
     'icao': 'MMMX',
-    'City': 'Mexico City',
-    'State': 'Distrito Federal',
-    'Country': 'Mexico'
+    'city': 'Mexico city',
+    'state': 'Distrito Federal',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Maringa Domestic Airport',
+    'airport': 'Maringa Domestic airport',
     'iata': 'MGF',
     'icao': '',
-    'City': 'Maringa',
-    'State': 'Parana',
-    'Country': 'Brazil'
+    'city': 'Maringa',
+    'state': 'Parana',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Miami International Airport',
+    'airport': 'Miami International airport',
     'iata': 'MIA',
     'icao': 'KMIA',
-    'City': 'Miami',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Miami',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'General Mitchell International Airport',
+    'airport': 'General Mitchell International airport',
     'iata': 'MKE',
     'icao': 'KMKE',
-    'City': 'Milwaukee',
-    'State': 'Wisconsin',
-    'Country': 'United States'
+    'city': 'Milwaukee',
+    'state': 'Wisconsin',
+    'country': 'United states'
 }, {
-    'Airport': 'Ninoy Aquino International Airport',
+    'airport': 'Ninoy Aquino International airport',
     'iata': 'MNL',
     'icao': 'RPLL',
-    'City': 'Parañaque',
-    'State': 'National Capital Region',
-    'Country': 'Philippines'
+    'city': 'Parañaque',
+    'state': 'National Capital Region',
+    'country': 'Philippines'
 }, {
-    'Airport': 'Marignane Airport',
+    'airport': 'Marignane airport',
     'iata': 'MRS',
     'icao': 'LFML',
-    'City': 'Marignane',
-    'State': "Provence-alpes-cote d'Azur",
-    'Country': 'France'
+    'city': 'Marignane',
+    'state': "Provence-alpes-cote d'Azur",
+    'country': 'France'
 }, {
-    'Airport': "Mineral'nyye Vody",
+    'airport': "Mineral'nyye Vody",
     'iata': 'MRV',
     'icao': 'URMM',
-    'City': 'Mineralnye Vody',
-    'State': 'Stavropolrskiy Kray',
-    'Country': 'Russia'
+    'city': 'Mineralnye Vody',
+    'state': 'Stavropolrskiy Kray',
+    'country': 'Russia'
 }, {
-    'Airport': 'Minneapolis St Paul International Airport',
+    'airport': 'Minneapolis St Paul International airport',
     'iata': 'MSP',
     'icao': 'KMSP',
-    'City': 'St. Paul',
-    'State': 'Minnesota',
-    'Country': 'United States'
+    'city': 'St. Paul',
+    'state': 'Minnesota',
+    'country': 'United states'
 }, {
-    'Airport': 'Velikiydvor Airport',
+    'airport': 'Velikiydvor airport',
     'iata': 'MSQ',
     'icao': 'UMMS',
-    'City': 'Minsk',
-    'State': "Minskaya Voblasts'",
-    'Country': 'Belarus'
+    'city': 'Minsk',
+    'state': "Minskaya Voblasts'",
+    'country': 'Belarus'
 }, {
-    'Airport': 'New Orleans International Airport',
+    'airport': 'New Orleans International airport',
     'iata': 'MSY',
     'icao': 'KMSY',
-    'City': 'Kenner',
-    'State': 'Louisiana',
-    'Country': 'United States'
+    'city': 'Kenner',
+    'state': 'Louisiana',
+    'country': 'United states'
 }, {
-    'Airport': 'Los Garzones Airport',
+    'airport': 'Los Garzones airport',
     'iata': 'MTR',
     'icao': '',
-    'City': 'Los Garzones',
-    'State': 'Cordoba',
-    'Country': 'Colombia'
+    'city': 'Los Garzones',
+    'state': 'Cordoba',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Gen Mariano Escobedo International Airport',
+    'airport': 'Gen Mariano Escobedo International airport',
     'iata': 'MTY',
     'icao': 'MMMY',
-    'City': 'Pesquería',
-    'State': 'Nuevo Leon',
-    'Country': 'Mexico'
+    'city': 'Pesquería',
+    'state': 'Nuevo Leon',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Franz-Josef-Strauss Airport',
+    'airport': 'Franz-Josef-Strauss airport',
     'iata': 'MUC',
     'icao': 'EDDM',
-    'City': 'Oberding',
-    'State': 'Bavaria',
-    'Country': 'Germany'
+    'city': 'Oberding',
+    'state': 'Bavaria',
+    'country': 'Germany'
 }, {
-    'Airport': 'Carrasco International Airport',
+    'airport': 'Carrasco International airport',
     'iata': 'MVD',
     'icao': 'SUMU',
-    'City': 'Montevideo',
-    'State': 'Montevideo',
-    'Country': 'Uruguay'
+    'city': 'Montevideo',
+    'state': 'Montevideo',
+    'country': 'Uruguay'
 }, {
-    'Airport': 'Malpensa International Airport',
+    'airport': 'Malpensa International airport',
     'iata': 'MXP',
     'icao': 'LIMC',
-    'City': 'Cardano al Campo',
-    'State': 'Lombardy',
-    'Country': 'Italy'
+    'city': 'Cardano al Campo',
+    'state': 'Lombardy',
+    'country': 'Italy'
 }, {
-    'Airport': 'Naples International Airport',
+    'airport': 'Naples International airport',
     'iata': 'NAP',
     'icao': 'LIRN',
-    'City': 'Naples',
-    'State': 'Campania',
-    'Country': 'Italy'
+    'city': 'Naples',
+    'state': 'Campania',
+    'country': 'Italy'
 }, {
-    'Airport': 'Augusto Severo International Airport',
+    'airport': 'Augusto Severo International airport',
     'iata': 'NAT',
     'icao': 'SBNT',
-    'City': 'Natal',
-    'State': 'Rio Grande do Norte',
-    'Country': 'Brazil'
+    'city': 'Natal',
+    'state': 'Rio Grande do Norte',
+    'country': 'Brazil'
 }, {
-    'Airport': "Nice-Cote d'Azur Airport",
+    'airport': "Nice-Cote d'Azur airport",
     'iata': 'NCE',
     'icao': 'LFMN',
-    'City': 'Nice',
-    'State': "Provence-alpes-cote d'Azur",
-    'Country': 'France'
+    'city': 'Nice',
+    'state': "Provence-alpes-cote d'Azur",
+    'country': 'France'
 }, {
-    'Airport': 'Ningbo Airport',
+    'airport': 'Ningbo airport',
     'iata': 'NGB',
     'icao': '',
-    'City': 'Jiangshan',
-    'State': 'Zhejiang',
-    'Country': 'China'
+    'city': 'Jiangshan',
+    'state': 'Zhejiang',
+    'country': 'China'
 }, {
-    'Airport': 'Chubu International Airport',
+    'airport': 'Chubu International airport',
     'iata': 'NGO',
     'icao': 'RJGG',
-    'City': 'Tokoname-shi',
-    'State': 'Aichi Prefecture',
-    'Country': 'Japan'
+    'city': 'Tokoname-shi',
+    'state': 'Aichi Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Nanjing Lukou International Airport',
+    'airport': 'Nanjing Lukou International airport',
     'iata': 'NKG',
     'icao': 'ZSNG',
-    'City': 'Nanjing',
-    'State': 'Jiangsu',
-    'Country': 'China'
+    'city': 'Nanjing',
+    'state': 'Jiangsu',
+    'country': 'China'
 }, {
-    'Airport': 'Nanning-Wuyu Airport',
+    'airport': 'Nanning-Wuyu airport',
     'iata': 'NNG',
     'icao': '',
-    'City': 'Wuxu',
-    'State': 'Guangxi',
-    'Country': 'China'
+    'city': 'Wuxu',
+    'state': 'Guangxi',
+    'country': 'China'
 }, {
-    'Airport': 'Neuquen Airport',
+    'airport': 'Neuquen airport',
     'iata': 'NQN',
     'icao': '',
-    'City': 'Neuquen',
-    'State': 'Neuquen',
-    'Country': 'Argentina'
+    'city': 'Neuquen',
+    'state': 'Neuquen',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Narita International Airport',
+    'airport': 'Narita International airport',
     'iata': 'NRT',
     'icao': 'RJAA',
-    'City': 'Narita-shi',
-    'State': 'Chiba Prefecture',
-    'Country': 'Japan'
+    'city': 'Narita-shi',
+    'state': 'Chiba Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Chateau Bougon Airport',
+    'airport': 'Chateau Bougon airport',
     'iata': 'NTE',
     'icao': 'LFRS',
-    'City': 'Bouguenais',
-    'State': 'Pays de la Loire',
-    'Country': 'France'
+    'city': 'Bouguenais',
+    'state': 'Pays de la Loire',
+    'country': 'France'
 }, {
-    'Airport': 'Ministro Victor Konder International Airport',
+    'airport': 'Ministro Victor Konder International airport',
     'iata': 'NVT',
     'icao': '',
-    'City': 'Navegantes',
-    'State': 'Santa Catarina',
-    'Country': 'Brazil'
+    'city': 'Navegantes',
+    'state': 'Santa Catarina',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Oakland International Airport',
+    'airport': 'Oakland International airport',
     'iata': 'OAK',
     'icao': 'KOAK',
-    'City': 'Oakland',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Oakland',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Kahului Airport',
+    'airport': 'Kahului airport',
     'iata': 'OGG',
     'icao': 'PHOG',
-    'City': 'Kahului',
-    'State': 'Hawaii',
-    'Country': 'United States'
+    'city': 'Kahului',
+    'state': 'Hawaii',
+    'country': 'United states'
 }, {
-    'Airport': 'Shimojishima Airport',
+    'airport': 'Shimojishima airport',
     'iata': 'OKA',
     'icao': 'ROAH',
-    'City': 'Naha-shi',
-    'State': 'Okinawa Prefecture',
-    'Country': 'Japan'
+    'city': 'Naha-shi',
+    'state': 'Okinawa Prefecture',
+    'country': 'Japan'
 }, {
-    'Airport': 'Will Rogers World Airport',
+    'airport': 'Will Rogers World airport',
     'iata': 'OKC',
     'icao': 'KOKC',
-    'City': 'Oklahoma City',
-    'State': 'Oklahoma',
-    'Country': 'United States'
+    'city': 'Oklahoma city',
+    'state': 'Oklahoma',
+    'country': 'United states'
 }, {
-    'Airport': 'Eppley Airfield',
+    'airport': 'Eppley Airfield',
     'iata': 'OMA',
     'icao': 'KOMA',
-    'City': 'Omaha',
-    'State': 'Nebraska',
-    'Country': 'United States'
+    'city': 'Omaha',
+    'state': 'Nebraska',
+    'country': 'United states'
 }, {
-    'Airport': 'Ontario International Airport',
+    'airport': 'Ontario International airport',
     'iata': 'ONT',
     'icao': 'KONT',
-    'City': 'Ontario',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Ontario',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Porto Airport',
+    'airport': 'Porto airport',
     'iata': 'OPO',
     'icao': 'LPPR',
-    'City': 'Maia',
-    'State': 'Porto',
-    'Country': 'Portugal'
+    'city': 'Maia',
+    'state': 'Porto',
+    'country': 'Portugal'
 }, {
-    'Airport': "Chicago O'Hare International Airport",
+    'airport': "Chicago O'Hare International airport",
     'iata': 'ORD',
     'icao': 'KORD',
-    'City': 'Chicago',
-    'State': 'Illinois',
-    'Country': 'United States'
+    'city': 'Chicago',
+    'state': 'Illinois',
+    'country': 'United states'
 }, {
-    'Airport': 'Norfolk International Airport',
+    'airport': 'Norfolk International airport',
     'iata': 'ORF',
     'icao': 'KORF',
-    'City': 'Norfolk',
-    'State': 'Virginia',
-    'Country': 'United States'
+    'city': 'Norfolk',
+    'state': 'Virginia',
+    'country': 'United states'
 }, {
-    'Airport': 'Paris Orly Airport',
+    'airport': 'Paris Orly airport',
     'iata': 'ORY',
     'icao': 'LFPO',
-    'City': 'Paris',
-    'State': 'Ile-de-France',
-    'Country': 'France'
+    'city': 'Paris',
+    'state': 'Ile-de-France',
+    'country': 'France'
 }, {
-    'Airport': 'Oslo Gardermoen Airport',
+    'airport': 'Oslo Gardermoen airport',
     'iata': 'OSL',
     'icao': 'ENGM',
-    'City': 'Gardermoen',
-    'State': 'Akershus Fylke',
-    'Country': 'Norway'
+    'city': 'Gardermoen',
+    'state': 'Akershus Fylke',
+    'country': 'Norway'
 }, {
-    'Airport': 'Otopeni Airport',
+    'airport': 'Otopeni airport',
     'iata': 'OTP',
     'icao': 'LROP',
-    'City': 'Bucharest',
-    'State': 'Ilfov',
-    'Country': 'Romania'
+    'city': 'Bucharest',
+    'state': 'Ilfov',
+    'country': 'Romania'
 }, {
-    'Airport': 'Tolmachevo Airport',
+    'airport': 'Tolmachevo airport',
     'iata': 'OVB',
     'icao': 'UNNT',
-    'City': 'Novosibirsk',
-    'State': 'Novosibirskaya Oblast',
-    'Country': 'Russia'
+    'city': 'Novosibirsk',
+    'state': 'Novosibirskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Palm Beach International Airport',
+    'airport': 'Palm Beach International airport',
     'iata': 'PBI',
     'icao': 'KPBI',
-    'City': 'West Palm Beach',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'West Palm Beach',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'Pucallpa Airport',
+    'airport': 'Pucallpa airport',
     'iata': 'PCL',
     'icao': 'SPCL',
-    'City': 'Callaria',
-    'State': 'Ucayali',
-    'Country': 'Peru'
+    'city': 'Callaria',
+    'state': 'Ucayali',
+    'country': 'Peru'
 }, {
-    'Airport': 'Portland International Airport',
+    'airport': 'Portland International airport',
     'iata': 'PDX',
     'icao': 'KPDX',
-    'City': 'Portland',
-    'State': 'Oregon',
-    'Country': 'United States'
+    'city': 'Portland',
+    'state': 'Oregon',
+    'country': 'United states'
 }, {
-    'Airport': 'Matecana Airport',
+    'airport': 'Matecana airport',
     'iata': 'PEI',
     'icao': 'SKPE',
-    'City': 'Pereira',
-    'State': 'Risaralda',
-    'Country': 'Colombia'
+    'city': 'Pereira',
+    'state': 'Risaralda',
+    'country': 'Colombia'
 }, {
-    'Airport': 'Beijing Capital Airport',
+    'airport': 'Beijing Capital airport',
     'iata': 'PEK',
     'icao': 'ZBAA',
-    'City': 'Shunyi',
-    'State': 'Beijing',
-    'Country': 'China'
+    'city': 'Shunyi',
+    'state': 'Beijing',
+    'country': 'China'
 }, {
-    'Airport': 'Philadelphia International Airport',
+    'airport': 'Philadelphia International airport',
     'iata': 'PHL',
     'icao': 'KPHL',
-    'City': 'Philadelphia',
-    'State': 'Pennsylvania',
-    'Country': 'United States'
+    'city': 'Philadelphia',
+    'state': 'Pennsylvania',
+    'country': 'United states'
 }, {
-    'Airport': 'Sky Harbor International Airport',
+    'airport': 'Sky Harbor International airport',
     'iata': 'PHX',
     'icao': 'KPHX',
-    'City': 'Phoenix',
-    'State': 'Arizona',
-    'Country': 'United States'
+    'city': 'Phoenix',
+    'state': 'Arizona',
+    'country': 'United states'
 }, {
-    'Airport': 'Pittsburgh International Airport',
+    'airport': 'Pittsburgh International airport',
     'iata': 'PIT',
     'icao': 'KPIT',
-    'City': 'Coraopolis',
-    'State': 'Pennsylvania',
-    'Country': 'United States'
+    'city': 'Coraopolis',
+    'state': 'Pennsylvania',
+    'country': 'United states'
 }, {
-    'Airport': 'Capitan Concha Airport',
+    'airport': 'Capitan Concha airport',
     'iata': 'PIU',
     'icao': 'SPUR',
-    'City': 'Piura',
-    'State': 'Piura',
-    'Country': 'Peru'
+    'city': 'Piura',
+    'state': 'Piura',
+    'country': 'Peru'
 }, {
-    'Airport': 'Belize',
+    'airport': 'Belize',
     'iata': 'PLJ',
     'icao': '',
-    'City': 'Placencia',
-    'State': '',
-    'Country': 'Belize'
+    'city': 'Placencia',
+    'state': '',
+    'country': 'Belize'
 }, {
-    'Airport': 'El Tepual International Airport',
+    'airport': 'El Tepual International airport',
     'iata': 'PMC',
     'icao': 'SCTE',
-    'City': 'Los Quemas',
-    'State': 'Los Lagos',
-    'Country': 'Chile'
+    'city': 'Los Quemas',
+    'state': 'Los Lagos',
+    'country': 'Chile'
 }, {
-    'Airport': 'Palma de Mallorca Airport',
+    'airport': 'Palma de Mallorca airport',
     'iata': 'PMI',
     'icao': 'LEPA',
-    'City': 'Palma',
-    'State': 'Balearic Islands',
-    'Country': 'Spain'
+    'city': 'Palma',
+    'state': 'Balearic Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'Palermo Airport',
+    'airport': 'Palermo airport',
     'iata': 'PMO',
     'icao': 'LICJ',
-    'City': 'Cinisi',
-    'State': 'Sicily',
-    'Country': 'Italy'
+    'city': 'Cinisi',
+    'state': 'Sicily',
+    'country': 'Italy'
 }, {
-    'Airport': 'Del Caribe International Airport',
+    'airport': 'Del Caribe International airport',
     'iata': 'PMV',
     'icao': 'KPMV',
-    'City': 'Pampatar',
-    'State': 'Nueva Esparta',
-    'Country': 'Venezuela'
+    'city': 'Pampatar',
+    'state': 'Nueva Esparta',
+    'country': 'Venezuela'
 }, {
-    'Airport': 'Pune Airport',
+    'airport': 'Pune airport',
     'iata': 'PNQ',
     'icao': '',
-    'City': 'Pune',
-    'State': 'Maharashtra',
-    'Country': 'India'
+    'city': 'Pune',
+    'state': 'Maharashtra',
+    'country': 'India'
 }, {
-    'Airport': 'Senador Nilo Coelho Airport',
+    'airport': 'Senador Nilo Coelho airport',
     'iata': 'PNZ',
     'icao': '',
-    'City': 'Petrolina',
-    'State': 'Pernambuco',
-    'Country': 'Brazil'
+    'city': 'Petrolina',
+    'state': 'Pernambuco',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Salgado Filho International Airport',
+    'airport': 'Salgado Filho International airport',
     'iata': 'POA',
     'icao': 'SBPA',
-    'City': 'Porto Alegre',
-    'State': 'Rio Grande do Sul',
-    'Country': 'Brazil'
+    'city': 'Porto Alegre',
+    'state': 'Rio Grande do Sul',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Piarco Airport',
+    'airport': 'Piarco airport',
     'iata': 'POS',
     'icao': 'TTPP',
-    'City': 'Trinidad',
-    'State': 'Port of Spain',
-    'Country': 'Trinidad and Tobago'
+    'city': 'Trinidad',
+    'state': 'Port of Spain',
+    'country': 'Trinidad and Tobago'
 }, {
-    'Airport': 'Prague Ruzyne Airport',
+    'airport': 'Prague Ruzyne airport',
     'iata': 'PRG',
     'icao': 'KPRG',
-    'City': 'Prague 6',
-    'State': 'Hlavni mesto Praha',
-    'Country': 'Czech Republic'
+    'city': 'Prague 6',
+    'state': 'Hlavni mesto Praha',
+    'country': 'Czech Republic'
 }, {
-    'Airport': 'Le Raizet Airport',
+    'airport': 'Le Raizet airport',
     'iata': 'PTP',
     'icao': 'TFFR',
-    'City': 'Les Abymes',
-    'State': 'Pointe-À-Pitre',
-    'Country': 'Guadeloupe'
+    'city': 'Les Abymes',
+    'state': 'Pointe-À-Pitre',
+    'country': 'Guadeloupe'
 }, {
-    'Airport': 'Tocumen International Airport',
+    'airport': 'Tocumen International airport',
     'iata': 'PTY',
     'icao': 'MPTO',
-    'City': 'Tocumen',
-    'State': 'Panama',
-    'Country': 'Panama'
+    'city': 'Tocumen',
+    'state': 'Panama',
+    'country': 'Panama'
 }, {
-    'Airport': 'Carlos Ibanez de Campo International Airport',
+    'airport': 'Carlos Ibanez de Campo International airport',
     'iata': 'PUQ',
     'icao': 'SCCI',
-    'City': 'Punta Arenas',
-    'State': 'Magallanes y Antartica Chilena',
-    'Country': 'Chile'
+    'city': 'Punta Arenas',
+    'state': 'Magallanes y Antartica Chilena',
+    'country': 'Chile'
 }, {
-    'Airport': 'Kimhae International Airport',
+    'airport': 'Kimhae International airport',
     'iata': 'PUS',
     'icao': 'RKPP',
-    'City': 'Busan',
-    'State': 'Busan',
-    'Country': 'South Korea'
+    'city': 'Busan',
+    'state': 'Busan',
+    'country': 'South Korea'
 }, {
-    'Airport': 'Pudong International Airport',
+    'airport': 'Pudong International airport',
     'iata': 'PVG',
     'icao': 'KPVG',
-    'City': 'Huinan',
-    'State': 'Shanghai',
-    'Country': 'China'
+    'city': 'Huinan',
+    'state': 'Shanghai',
+    'country': 'China'
 }, {
-    'Airport': 'Governador Jorge Teixeira de Oliveira Internatio',
+    'airport': 'Governador Jorge Teixeira de Oliveira Internatio',
     'iata': 'PVH',
     'icao': '',
-    'City': 'Pôrto Velho',
-    'State': 'Rondonia',
-    'Country': 'Brazil'
+    'city': 'Pôrto Velho',
+    'state': 'Rondonia',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Lic Gustavo Diaz Ordaz International Airport',
+    'airport': 'Lic Gustavo Diaz Ordaz International airport',
     'iata': 'PVR',
     'icao': 'MMPR',
-    'City': 'Puerto Vallarta',
-    'State': 'Jalisco',
-    'Country': 'Mexico'
+    'city': 'Puerto Vallarta',
+    'state': 'Jalisco',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Leite Lopes Airport',
+    'airport': 'Leite Lopes airport',
     'iata': 'RAO',
     'icao': '',
-    'City': 'Ribeirão Prêto',
-    'State': 'Sao Paulo',
-    'Country': 'Brazil'
+    'city': 'Ribeirão Prêto',
+    'state': 'Sao Paulo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Durham International Airport',
+    'airport': 'Durham International airport',
     'iata': 'RDU',
     'icao': 'KRDU',
-    'City': 'Raleigh/Durham',
-    'State': 'North Carolina',
-    'Country': 'United States'
+    'city': 'Raleigh/Durham',
+    'state': 'North Carolina',
+    'country': 'United states'
 }, {
-    'Airport': 'Gilberto Freyre International Airport',
+    'airport': 'Gilberto Freyre International airport',
     'iata': 'REC',
     'icao': 'SBRF',
-    'City': 'Recife',
-    'State': 'Pernambuco',
-    'Country': 'Brazil'
+    'city': 'Recife',
+    'state': 'Pernambuco',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Trelew Almirante Zar Airport',
+    'airport': 'Trelew Almirante Zar airport',
     'iata': 'REL',
     'icao': '',
-    'City': 'Trelew',
-    'State': 'Chubut',
-    'Country': 'Argentina'
+    'city': 'Trelew',
+    'state': 'Chubut',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Mingaladon Airport',
+    'airport': 'Mingaladon airport',
     'iata': 'RGN',
     'icao': 'VYYY',
-    'City': 'Insein',
-    'State': 'Yangon',
-    'Country': 'Myanmar'
+    'city': 'Insein',
+    'state': 'Yangon',
+    'country': 'Myanmar'
 }, {
-    'Airport': 'Riga Airport',
+    'airport': 'Riga airport',
     'iata': 'RIX',
     'icao': 'EVRA',
-    'City': 'Marupe',
-    'State': 'Rigas Rajons',
-    'Country': 'Latvia'
+    'city': 'Marupe',
+    'state': 'Rigas Rajons',
+    'country': 'Latvia'
 }, {
-    'Airport': 'Reno-Tahoe International Airport',
+    'airport': 'Reno-Tahoe International airport',
     'iata': 'RNO',
     'icao': 'KRNO',
-    'City': 'Reno',
-    'State': 'Nevada',
-    'Country': 'United States'
+    'city': 'Reno',
+    'state': 'Nevada',
+    'country': 'United states'
 }, {
-    'Airport': 'Rosario Airport',
+    'airport': 'Rosario airport',
     'iata': 'ROS',
     'icao': 'KROS',
-    'City': 'Rosario',
-    'State': 'Santa Fe',
-    'Country': 'Argentina'
+    'city': 'Rosario',
+    'state': 'Santa Fe',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Rostov East Airport',
+    'airport': 'Rostov East airport',
     'iata': 'ROV',
     'icao': '',
-    'City': 'Taganrog',
-    'State': 'Rostovskaya Oblast',
-    'Country': 'Russia'
+    'city': 'Taganrog',
+    'state': 'Rostovskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Southwest Florida International Airport',
+    'airport': 'Southwest Florida International airport',
     'iata': 'RSW',
     'icao': 'KRSW',
-    'City': 'Fort Myers',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Fort Myers',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'King Khalid International Airport',
+    'airport': 'King Khalid International airport',
     'iata': 'RUH',
     'icao': 'OERK',
-    'City': 'Riyadh',
-    'State': 'Ar Riyad',
-    'Country': 'Saudi Arabia'
+    'city': 'Riyadh',
+    'state': 'Ar Riyad',
+    'country': 'Saudi Arabia'
 }, {
-    'Airport': 'San Diego International Airport',
+    'airport': 'San Diego International airport',
     'iata': 'SAN',
     'icao': 'KSAN',
-    'City': 'San Diego',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'San Diego',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'San Antonio International Airport',
+    'airport': 'San Antonio International airport',
     'iata': 'SAT',
     'icao': 'KSAT',
-    'City': 'San Antonio',
-    'State': 'Texas',
-    'Country': 'United States'
+    'city': 'San Antonio',
+    'state': 'Texas',
+    'country': 'United states'
 }, {
-    'Airport': 'Istanbul Sabiha Gokcen Airport',
+    'airport': 'Istanbul Sabiha Gokcen airport',
     'iata': 'SAW',
     'icao': 'LTFJ',
-    'City': 'Umraniye',
-    'State': 'Istanbul',
-    'Country': 'Turkey'
+    'city': 'Umraniye',
+    'state': 'Istanbul',
+    'country': 'Turkey'
 }, {
-    'Airport': 'Gustavia Airport',
+    'airport': 'Gustavia airport',
     'iata': 'SBH',
     'icao': '',
-    'City': 'Gustavia',
-    'State': 'Saint-Martin et Saint-Barthélé',
-    'Country': 'Guadeloupe'
+    'city': 'Gustavia',
+    'state': 'Saint-Martin et Saint-Barthélé',
+    'country': 'Guadeloupe'
 }, {
-    'Airport': 'Arturo Merino Benitez International Airport',
+    'airport': 'Arturo Merino Benitez International airport',
     'iata': 'SCL',
     'icao': 'SCEL',
-    'City': 'Lo Amor',
-    'State': 'Santiago',
-    'Country': 'Chile'
+    'city': 'Lo Amor',
+    'state': 'Santiago',
+    'country': 'Chile'
 }, {
-    'Airport': 'Louisville International Airport',
+    'airport': 'Louisville International airport',
     'iata': 'SDF',
     'icao': 'KSDF',
-    'City': 'Louisville',
-    'State': 'Kentucky',
-    'Country': 'United States'
+    'city': 'Louisville',
+    'state': 'Kentucky',
+    'country': 'United states'
 }, {
-    'Airport': 'Santos Dumont Airport',
+    'airport': 'Santos Dumont airport',
     'iata': 'SDU',
     'icao': 'SBRJ',
-    'City': 'Rio de Janeiro',
-    'State': 'Rio de Janeiro',
-    'Country': 'Brazil'
+    'city': 'Rio de Janeiro',
+    'state': 'Rio de Janeiro',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Tacoma International Airport',
+    'airport': 'Tacoma International airport',
     'iata': 'SEA',
     'icao': 'KSEA',
-    'City': 'Seattle',
-    'State': 'Washington',
-    'Country': 'United States'
+    'city': 'Seattle',
+    'state': 'Washington',
+    'country': 'United states'
 }, {
-    'Airport': 'San Francisco International Airport',
+    'airport': 'San Francisco International airport',
     'iata': 'SFO',
     'icao': 'KSFO',
-    'City': 'San Francisco',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'San Francisco',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Tan Son Nhut Airport',
+    'airport': 'Tan Son Nhut airport',
     'iata': 'SGN',
     'icao': 'VVTS',
-    'City': 'Ho Chi Minh City',
-    'State': 'Ho Chi Minh',
-    'Country': 'Vietnam'
+    'city': 'Ho Chi Minh city',
+    'state': 'Ho Chi Minh',
+    'country': 'Vietnam'
 }, {
-    'Airport': 'Hongqiao Airport',
+    'airport': 'Hongqiao airport',
     'iata': 'SHA',
     'icao': 'ZSSS',
-    'City': 'Shanghai',
-    'State': 'Shanghai',
-    'Country': 'China'
+    'city': 'Shanghai',
+    'state': 'Shanghai',
+    'country': 'China'
 }, {
-    'Airport': 'Dongta Airport',
+    'airport': 'Dongta airport',
     'iata': 'SHE',
     'icao': 'ZYTX',
-    'City': 'Shenyang',
-    'State': 'Liaoning',
-    'Country': 'China'
+    'city': 'Shenyang',
+    'state': 'Liaoning',
+    'country': 'China'
 }, {
-    'Airport': 'Singapore Changi Airport',
+    'airport': 'Singapore Changi airport',
     'iata': 'SIN',
     'icao': 'WSSS',
-    'City': 'Singapore',
-    'State': 'South East',
-    'Country': 'Singapore'
+    'city': 'Singapore',
+    'state': 'South East',
+    'country': 'Singapore'
 }, {
-    'Airport': 'Simferopol North Airport',
+    'airport': 'Simferopol North airport',
     'iata': 'SIP',
     'icao': '',
-    'City': "Simferopol'",
-    'State': 'Krym, Avtonomna Respublika',
-    'Country': 'Ukraine'
+    'city': "Simferopol'",
+    'state': 'Krym, Avtonomna Respublika',
+    'country': 'Ukraine'
 }, {
-    'Airport': 'Norman Y Mineta San Jose International Airport',
+    'airport': 'Norman Y Mineta San Jose International airport',
     'iata': 'SJC',
     'icao': 'KSJC',
-    'City': 'San Jose',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'San Jose',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Los Cabos International Airport',
+    'airport': 'Los Cabos International airport',
     'iata': 'SJD',
     'icao': 'MMSD',
-    'City': 'S. Jose del Cabo',
-    'State': 'Baja California Sur',
-    'Country': 'Mexico'
+    'city': 'S. Jose del Cabo',
+    'state': 'Baja California Sur',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Sao Jose do Rio Preto Airport',
+    'airport': 'Sao Jose do Rio Preto airport',
     'iata': 'SJP',
     'icao': '',
-    'City': 'São José do Rio Prêto',
-    'State': 'Sao Paulo',
-    'Country': 'Brazil'
+    'city': 'São José do Rio Prêto',
+    'state': 'Sao Paulo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Luis Munoz Marin Airport',
+    'airport': 'Luis Munoz Marin airport',
     'iata': 'SJU',
     'icao': 'TJSJ',
-    'City': 'Carolina',
-    'State': 'Puerto Rico',
-    'Country': 'United States'
+    'city': 'Carolina',
+    'state': 'Puerto Rico',
+    'country': 'United states'
 }, {
-    'Airport': 'Shijiazhuang',
+    'airport': 'Shijiazhuang',
     'iata': 'SJW',
     'icao': '',
-    'City': 'Shijiazhuang',
-    'State': 'Hebei',
-    'Country': 'China'
+    'city': 'Shijiazhuang',
+    'state': 'Hebei',
+    'country': 'China'
 }, {
-    'Airport': 'Thessaloniki Airport',
+    'airport': 'Thessaloniki airport',
     'iata': 'SKG',
     'icao': 'LGTS',
-    'City': 'Thessaloniki',
-    'State': 'Kentriki Makedonia',
-    'Country': 'Greece'
+    'city': 'Thessaloniki',
+    'state': 'Kentriki Makedonia',
+    'country': 'Greece'
 }, {
-    'Airport': 'Salta Airport',
+    'airport': 'Salta airport',
     'iata': 'SLA',
     'icao': 'SASA',
-    'City': 'La Caldera',
-    'State': 'Salta',
-    'Country': 'Argentina'
+    'city': 'La Caldera',
+    'state': 'Salta',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Salt Lake City International Airport',
+    'airport': 'Salt Lake city International airport',
     'iata': 'SLC',
     'icao': 'KSLC',
-    'City': 'Salt Lake City',
-    'State': 'Utah',
-    'Country': 'United States'
+    'city': 'Salt Lake city',
+    'state': 'Utah',
+    'country': 'United states'
 }, {
-    'Airport': 'Marechal Cunha Machado International Airport',
+    'airport': 'Marechal Cunha Machado International airport',
     'iata': 'SLZ',
     'icao': '',
-    'City': 'Salvador',
-    'State': 'Nordeste',
-    'Country': 'Brazil'
+    'city': 'Salvador',
+    'state': 'Nordeste',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Sacramento International Airport',
+    'airport': 'Sacramento International airport',
     'iata': 'SMF',
     'icao': 'KSMF',
-    'City': 'Sacramento',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Sacramento',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Simon Bolivar Airport',
+    'airport': 'Simon Bolivar airport',
     'iata': 'SMR',
     'icao': '',
-    'City': '',
-    'State': 'Magdalena',
-    'Country': 'Colombia'
+    'city': '',
+    'state': 'Magdalena',
+    'country': 'Colombia'
 }, {
-    'Airport': 'John Wayne Airport',
+    'airport': 'John Wayne airport',
     'iata': 'SNA',
     'icao': 'KSNA',
-    'City': 'Santa Ana',
-    'State': 'California',
-    'Country': 'United States'
+    'city': 'Santa Ana',
+    'state': 'California',
+    'country': 'United states'
 }, {
-    'Airport': 'Vrazhdebna Airport',
+    'airport': 'Vrazhdebna airport',
     'iata': 'SOF',
     'icao': 'LBSF',
-    'City': 'Sofia',
-    'State': 'Sofiya-Grad',
-    'Country': 'Bulgaria'
+    'city': 'Sofia',
+    'state': 'Sofiya-Grad',
+    'country': 'Bulgaria'
 }, {
-    'Airport': 'San Pedro Airport',
+    'airport': 'San Pedro airport',
     'iata': 'SPR',
     'icao': '',
-    'City': 'San Pedro',
-    'State': 'Belize',
-    'Country': 'Belize'
+    'city': 'San Pedro',
+    'state': 'Belize',
+    'country': 'Belize'
 }, {
-    'Airport': 'Juana Azurduy de Padilla Airport',
+    'airport': 'Juana Azurduy de Padilla airport',
     'iata': 'SRE',
     'icao': 'KSRE',
-    'City': 'Sucre',
-    'State': 'Chuquisaca',
-    'Country': 'Bolivia'
+    'city': 'Sucre',
+    'state': 'Chuquisaca',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'Deputado Luis Eduardo Magalhaes International Ai',
+    'airport': 'Deputado Luis Eduardo Magalhaes International Ai',
     'iata': 'SSA',
     'icao': 'SBSV',
-    'City': 'Salvador',
-    'State': 'Nordeste',
-    'Country': 'Brazil'
+    'city': 'Salvador',
+    'state': 'Nordeste',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Lambert St Louis International Airport',
+    'airport': 'Lambert St Louis International airport',
     'iata': 'STL',
     'icao': 'KSTL',
-    'City': 'St. Louis',
-    'State': 'Missouri',
-    'Country': 'United States'
+    'city': 'St. Louis',
+    'state': 'Missouri',
+    'country': 'United states'
 }, {
-    'Airport': 'Santarem International Airport',
+    'airport': 'Santarem International airport',
     'iata': 'STM',
     'icao': '',
-    'City': 'Santarém',
-    'State': 'Para',
-    'Country': 'Brazil'
+    'city': 'Santarém',
+    'state': 'Para',
+    'country': 'Brazil'
 }, {
-    'Airport': 'London Stansted International Airport',
+    'airport': 'London Stansted International airport',
     'iata': 'STN',
     'icao': 'EGSS',
-    'City': 'Stansted Mountfitchet',
-    'State': 'England',
-    'Country': 'United Kingdom'
+    'city': 'Stansted Mountfitchet',
+    'state': 'England',
+    'country': 'United Kingdom'
 }, {
-    'Airport': 'Stuttgart Airport',
+    'airport': 'Stuttgart airport',
     'iata': 'STR',
     'icao': 'EDDS',
-    'City': 'Stuttgart',
-    'State': 'Baden-Wurttemberg',
-    'Country': 'Germany'
+    'city': 'Stuttgart',
+    'state': 'Baden-Wurttemberg',
+    'country': 'Germany'
 }, {
-    'Airport': 'Cyril E King International Airport',
+    'airport': 'Cyril E King International airport',
     'iata': 'STT',
     'icao': 'TIST',
-    'City': 'Charlotte Amalie',
-    'State': 'US Virgin Islands',
-    'Country': 'United States'
+    'city': 'Charlotte Amalie',
+    'state': 'US Virgin Islands',
+    'country': 'United states'
 }, {
-    'Airport': 'Juanda Airport',
+    'airport': 'Juanda airport',
     'iata': 'SUB',
     'icao': 'WARR',
-    'City': 'Sidoarjo',
-    'State': 'Jawa Timur',
-    'Country': 'Indonesia'
+    'city': 'Sidoarjo',
+    'state': 'Jawa Timur',
+    'country': 'Indonesia'
 }, {
-    'Airport': 'Stavanger Sola Airport',
+    'airport': 'Stavanger Sola airport',
     'iata': 'SVG',
     'icao': 'ENZV',
-    'City': 'Rage',
-    'State': 'Rogaland Fylke',
-    'Country': 'Norway'
+    'city': 'Rage',
+    'state': 'Rogaland Fylke',
+    'country': 'Norway'
 }, {
-    'Airport': 'Sheremtyevo Airport',
+    'airport': 'Sheremtyevo airport',
     'iata': 'SVO',
     'icao': 'UUEE',
-    'City': 'Zelenograd',
-    'State': 'Moskovskaya Oblast',
-    'Country': 'Russia'
+    'city': 'Zelenograd',
+    'state': 'Moskovskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Koltsovo Airport',
+    'airport': 'Koltsovo airport',
     'iata': 'SVX',
     'icao': 'USSS',
-    'City': 'Yekaterinburg',
-    'State': 'Sverdlovskaya Oblast',
-    'Country': 'Russia'
+    'city': 'Yekaterinburg',
+    'state': 'Sverdlovskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Shantou Northeast Airport',
+    'airport': 'Shantou Northeast airport',
     'iata': 'SWA',
     'icao': '',
-    'City': 'Chenghai',
-    'State': 'Guangdong',
-    'Country': 'China'
+    'city': 'Chenghai',
+    'state': 'Guangdong',
+    'country': 'China'
 }, {
-    'Airport': 'Prinses Juliana International Airport',
+    'airport': 'Prinses Juliana International airport',
     'iata': 'SXM',
     'icao': 'TNCM',
-    'City': '',
-    'State': 'St Maarten',
-    'Country': 'Netherlands Antilles'
+    'city': '',
+    'state': 'St Maarten',
+    'country': 'Netherlands Antilles'
 }, {
-    'Airport': 'Sanya',
+    'airport': 'Sanya',
     'iata': 'SYX',
     'icao': '',
-    'City': 'Sanya',
-    'State': 'Hainan',
-    'Country': 'China'
+    'city': 'Sanya',
+    'state': 'Hainan',
+    'country': 'China'
 }, {
-    'Airport': 'Sultan Abdul Aziz Shah Airport',
+    'airport': 'Sultan Abdul Aziz Shah airport',
     'iata': 'SZB',
     'icao': 'WMSA',
-    'City': 'Kampong Baru Subang',
-    'State': 'Selangor',
-    'Country': 'Malaysia'
+    'city': 'Kampong Baru Subang',
+    'state': 'Selangor',
+    'country': 'Malaysia'
 }, {
-    'Airport': 'Shenzhen Airport',
+    'airport': 'Shenzhen airport',
     'iata': 'SZX',
     'icao': '',
-    'City': 'Shenzhen',
-    'State': 'Guangdong',
-    'Country': 'China'
+    'city': 'Shenzhen',
+    'state': 'Guangdong',
+    'country': 'China'
 }, {
-    'Airport': 'Liuting Airport',
+    'airport': 'Liuting airport',
     'iata': 'TAO',
     'icao': 'ZSQD',
-    'City': 'Wanggezhuang',
-    'State': 'Shandong',
-    'Country': 'China'
+    'city': 'Wanggezhuang',
+    'state': 'Shandong',
+    'country': 'China'
 }, {
-    'Airport': 'Jorge Henrich Arauz Airport',
+    'airport': 'Jorge Henrich Arauz airport',
     'iata': 'TDD',
     'icao': '',
-    'City': 'Trinidad',
-    'State': 'El Beni',
-    'Country': 'Bolivia'
+    'city': 'Trinidad',
+    'state': 'El Beni',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'Norte-Los Rodeos Airport',
+    'airport': 'Norte-Los Rodeos airport',
     'iata': 'TFN',
     'icao': 'GCXO',
-    'City': 'Tegueste',
-    'State': 'Canary Islands',
-    'Country': 'Spain'
+    'city': 'Tegueste',
+    'state': 'Canary Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'Sur-Reina Sofia Airport',
+    'airport': 'Sur-Reina Sofia airport',
     'iata': 'TFS',
     'icao': 'GCTS',
-    'City': 'Granadilla',
-    'State': 'Canary Islands',
-    'Country': 'Spain'
+    'city': 'Granadilla',
+    'state': 'Canary Islands',
+    'country': 'Spain'
 }, {
-    'Airport': 'Senador Petronio Portella Airport',
+    'airport': 'Senador Petronio Portella airport',
     'iata': 'THE',
     'icao': '',
-    'City': 'Teresina',
-    'State': 'Maranhao',
-    'Country': 'Brazil'
+    'city': 'Teresina',
+    'state': 'Maranhao',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Mehrabad International Airport',
+    'airport': 'Mehrabad International airport',
     'iata': 'THR',
     'icao': 'OIII',
-    'City': 'Tehran',
-    'State': 'Tehran',
-    'Country': 'Iran'
+    'city': 'Tehran',
+    'state': 'Tehran',
+    'country': 'Iran'
 }, {
-    'Airport': 'Tirane Rinas Airport',
+    'airport': 'Tirane Rinas airport',
     'iata': 'TIA',
     'icao': 'LATI',
-    'City': 'Krna',
-    'State': 'Durrës',
-    'Country': 'Albania'
+    'city': 'Krna',
+    'state': 'Durrës',
+    'country': 'Albania'
 }, {
-    'Airport': 'General Abelardo L Rodriguez International Airpo',
+    'airport': 'General Abelardo L Rodriguez International Airpo',
     'iata': 'TIJ',
     'icao': 'MMTJ',
-    'City': 'Tijuana',
-    'State': 'Baja California',
-    'Country': 'Mexico'
+    'city': 'Tijuana',
+    'state': 'Baja California',
+    'country': 'Mexico'
 }, {
-    'Airport': 'Capitan Oriel Lea Plaza Airport',
+    'airport': 'Capitan Oriel Lea Plaza airport',
     'iata': 'TJA',
     'icao': 'SLTJ',
-    'City': 'Tarija',
-    'State': 'Tarija',
-    'Country': 'Bolivia'
+    'city': 'Tarija',
+    'state': 'Tarija',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'Blagnac Airport',
+    'airport': 'Blagnac airport',
     'iata': 'TLS',
     'icao': 'LFBO',
-    'City': 'Blagnac',
-    'State': 'Midi-Pyrenees',
-    'Country': 'France'
+    'city': 'Blagnac',
+    'state': 'Midi-Pyrenees',
+    'country': 'France'
 }, {
-    'Airport': 'Shandong',
+    'airport': 'Shandong',
     'iata': 'TNA',
     'icao': '',
-    'City': 'Jinan',
-    'State': 'Shandong',
-    'Country': 'China'
+    'city': 'Jinan',
+    'state': 'Shandong',
+    'country': 'China'
 }, {
-    'Airport': 'Tromso Langnes Airport',
+    'airport': 'Tromso Langnes airport',
     'iata': 'TOS',
     'icao': 'ENTC',
-    'City': 'Tromso',
-    'State': 'Troms Fylke',
-    'Country': 'Norway'
+    'city': 'Tromso',
+    'state': 'Troms Fylke',
+    'country': 'Norway'
 }, {
-    'Airport': 'Tampa International Airport',
+    'airport': 'Tampa International airport',
     'iata': 'TPA',
     'icao': 'KTPA',
-    'City': 'Tampa',
-    'State': 'Florida',
-    'Country': 'United States'
+    'city': 'Tampa',
+    'state': 'Florida',
+    'country': 'United states'
 }, {
-    'Airport': 'Taiwan Taoyuan International Airport',
+    'airport': 'Taiwan Taoyuan International airport',
     'iata': 'TPE',
     'icao': 'RCTP',
-    'City': 'Taoyuan City',
-    'State': 'Taiwan Province',
-    'Country': 'Taiwan'
+    'city': 'Taoyuan city',
+    'state': 'Taiwan Province',
+    'country': 'Taiwan'
 }, {
-    'Airport': 'Tarapoto Airport',
+    'airport': 'Tarapoto airport',
     'iata': 'TPP',
     'icao': '',
-    'City': 'Tarapoto',
-    'State': 'San Martin',
-    'Country': 'Peru'
+    'city': 'Tarapoto',
+    'state': 'San Martin',
+    'country': 'Peru'
 }, {
-    'Airport': 'Trondheim Vaernes Airport',
+    'airport': 'Trondheim Vaernes airport',
     'iata': 'TRD',
     'icao': 'ENVA',
-    'City': 'Stjordal',
-    'State': 'Nord-Trondelag',
-    'Country': 'Norway'
+    'city': 'Stjordal',
+    'state': 'Nord-Trondelag',
+    'country': 'Norway'
 }, {
-    'Airport': 'Cap C Martinez de Pinillos Airport',
+    'airport': 'Cap C Martinez de Pinillos airport',
     'iata': 'TRU',
     'icao': 'SPRU',
-    'City': 'Huanchaco',
-    'State': 'La Libertad',
-    'Country': 'Peru'
+    'city': 'Huanchaco',
+    'state': 'La Libertad',
+    'country': 'Peru'
 }, {
-    'Airport': 'Zhangguizhuang Airport',
+    'airport': 'Zhangguizhuang airport',
     'iata': 'TSN',
     'icao': '',
-    'City': 'Tanggu',
-    'State': 'Tianjin',
-    'Country': 'China'
+    'city': 'Tanggu',
+    'state': 'Tianjin',
+    'country': 'China'
 }, {
-    'Airport': 'Teniente Benjamin Matienzo Airport',
+    'airport': 'Teniente Benjamin Matienzo airport',
     'iata': 'TUC',
     'icao': '',
-    'City': 'Banda del Río Salí',
-    'State': 'Tucuman',
-    'Country': 'Argentina'
+    'city': 'Banda del Río Salí',
+    'state': 'Tucuman',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Tucson International Airport',
+    'airport': 'Tucson International airport',
     'iata': 'TUS',
     'icao': 'KTUS',
-    'City': 'Tucson',
-    'State': 'Arizona',
-    'Country': 'United States'
+    'city': 'Tucson',
+    'state': 'Arizona',
+    'country': 'United states'
 }, {
-    'Airport': 'Berlin-Tegel International Airport',
+    'airport': 'Berlin-Tegel International airport',
     'iata': 'TXL',
     'icao': 'EDDT',
-    'City': 'Berlin',
-    'State': 'Berlin',
-    'Country': 'Germany'
+    'city': 'Berlin',
+    'state': 'Berlin',
+    'country': 'Germany'
 }, {
-    'Airport': 'Taiyuan Wusu Airport',
+    'airport': 'Taiyuan Wusu airport',
     'iata': 'TYN',
     'icao': '',
-    'City': 'Taiyuan',
-    'State': 'Shanxi',
-    'Country': 'China'
+    'city': 'Taiyuan',
+    'state': 'Shanxi',
+    'country': 'China'
 }, {
-    'Airport': 'Belize City Municipal Airport',
+    'airport': 'Belize city Municipal airport',
     'iata': 'TZA',
     'icao': '',
-    'City': 'Hattieville',
-    'State': 'Belize',
-    'Country': 'Belize'
+    'city': 'Hattieville',
+    'state': 'Belize',
+    'country': 'Belize'
 }, {
-    'Airport': 'Coronel Aviador Cesar Bombonato Airport',
+    'airport': 'Coronel Aviador Cesar Bombonato airport',
     'iata': 'UDI',
     'icao': '',
-    'City': 'Uberlandia',
-    'State': 'Minas Gerais',
-    'Country': 'Brazil'
+    'city': 'Uberlandia',
+    'state': 'Minas Gerais',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Ufa South Airport',
+    'airport': 'Ufa South airport',
     'iata': 'UFA',
     'icao': 'UWUU',
-    'City': 'Oufa',
-    'State': 'Bashkortostan',
-    'Country': 'Russia'
+    'city': 'Oufa',
+    'state': 'Bashkortostan',
+    'country': 'Russia'
 }, {
-    'Airport': 'Mariscal Sucre International Airport',
+    'airport': 'Mariscal Sucre International airport',
     'iata': 'UIO',
     'icao': 'SEQU',
-    'City': 'Quito',
-    'State': 'Pichincha',
-    'Country': 'Ecuador'
+    'city': 'Quito',
+    'state': 'Pichincha',
+    'country': 'Ecuador'
 }, {
-    'Airport': 'Hasanuddin Airport',
+    'airport': 'Hasanuddin airport',
     'iata': 'UPG',
     'icao': '',
-    'City': 'Maros',
-    'State': 'Sulawesi Selatan',
-    'Country': 'Indonesia'
+    'city': 'Maros',
+    'state': 'Sulawesi Selatan',
+    'country': 'Indonesia'
 }, {
-    'Airport': 'Diwopu Airport',
+    'airport': 'Diwopu airport',
     'iata': 'URC',
     'icao': 'ZWWW',
-    'City': 'Urumqi',
-    'State': 'Xinjiang',
-    'Country': 'China'
+    'city': 'Urumqi',
+    'state': 'Xinjiang',
+    'country': 'China'
 }, {
-    'Airport': 'Ushuaia Airport',
+    'airport': 'Ushuaia airport',
     'iata': 'USH',
     'icao': 'SAWH',
-    'City': 'Ushuaia',
-    'State': 'Tierra del Fuego',
-    'Country': 'Argentina'
+    'city': 'Ushuaia',
+    'state': 'Tierra del Fuego',
+    'country': 'Argentina'
 }, {
-    'Airport': 'Marco Polo International Airport',
+    'airport': 'Marco Polo International airport',
     'iata': 'VCE',
     'icao': 'LIPZ',
-    'City': 'Venice',
-    'State': 'Veneto',
-    'Country': 'Italy'
+    'city': 'Venice',
+    'state': 'Veneto',
+    'country': 'Italy'
 }, {
-    'Airport': 'Viracopos International Airport',
+    'airport': 'Viracopos International airport',
     'iata': 'VCP',
     'icao': 'SBKP',
-    'City': 'Campinas',
-    'State': 'Sao Paulo',
-    'Country': 'Brazil'
+    'city': 'Campinas',
+    'state': 'Sao Paulo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Vitoria da Conquista Airport',
+    'airport': 'Vitoria da Conquista airport',
     'iata': 'VDC',
     'icao': '',
-    'City': 'Vitória da Conquista',
-    'State': 'Bahia',
-    'Country': 'Brazil'
+    'city': 'Vitória da Conquista',
+    'state': 'Bahia',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Vienna Schwechat International Airport',
+    'airport': 'Vienna Schwechat International airport',
     'iata': 'VIE',
     'icao': 'LOWW',
-    'City': 'Klein-Neusiedl',
-    'State': 'Lower Austria',
-    'Country': 'Austria'
+    'city': 'Klein-Neusiedl',
+    'state': 'Lower Austria',
+    'country': 'Austria'
 }, {
-    'Airport': 'Goiabeiras Airport',
+    'airport': 'Goiabeiras airport',
     'iata': 'VIX',
     'icao': 'SBVT',
-    'City': 'Vitoria',
-    'State': 'Espirito Santo',
-    'Country': 'Brazil'
+    'city': 'Vitoria',
+    'state': 'Espirito Santo',
+    'country': 'Brazil'
 }, {
-    'Airport': 'Ynukovo Airport',
+    'airport': 'Ynukovo airport',
     'iata': 'VKO',
     'icao': 'UUWW',
-    'City': "Podol'sk",
-    'State': 'Moskovskaya Oblast',
-    'Country': 'Russia'
+    'city': "Podol'sk",
+    'state': 'Moskovskaya Oblast',
+    'country': 'Russia'
 }, {
-    'Airport': 'Valencia Airport',
+    'airport': 'Valencia airport',
     'iata': 'VLC',
     'icao': 'LEVC',
-    'City': 'Manises',
-    'State': 'Valencia',
-    'Country': 'Spain'
+    'city': 'Manises',
+    'state': 'Valencia',
+    'country': 'Spain'
 }, {
-    'Airport': 'Vilnius Airport',
+    'airport': 'Vilnius airport',
     'iata': 'VNO',
     'icao': 'EYVI',
-    'City': 'Vilnius',
-    'State': 'Vilniaus apskritis',
-    'Country': 'Lithuania'
+    'city': 'Vilnius',
+    'state': 'Vilniaus apskritis',
+    'country': 'Lithuania'
 }, {
-    'Airport': 'Viru Viru International Airport',
+    'airport': 'Viru Viru International airport',
     'iata': 'VVI',
     'icao': 'SLVR',
-    'City': 'Santa Cruz',
-    'State': 'Santa Cruz',
-    'Country': 'Bolivia'
+    'city': 'Santa Cruz',
+    'state': 'Santa Cruz',
+    'country': 'Bolivia'
 }, {
-    'Airport': 'Okecie International Airport',
+    'airport': 'Okecie International airport',
     'iata': 'WAW',
     'icao': 'EPWA',
-    'City': 'Warsaw',
-    'State': 'Mazowieckie',
-    'Country': 'Poland'
+    'city': 'Warsaw',
+    'state': 'Mazowieckie',
+    'country': 'Poland'
 }, {
-    'Airport': 'Wenzhou Airport',
+    'airport': 'Wenzhou airport',
     'iata': 'WNZ',
     'icao': '',
-    'City': 'Wenzhou',
-    'State': 'Zhejiang',
-    'Country': 'China'
+    'city': 'Wenzhou',
+    'state': 'Zhejiang',
+    'country': 'China'
 }, {
-    'Airport': 'Wuchang Nanhu Airport',
+    'airport': 'Wuchang Nanhu airport',
     'iata': 'WUH',
     'icao': 'ZHHH',
-    'City': 'Wuhan',
-    'State': 'Hubei',
-    'Country': 'China'
+    'city': 'Wuhan',
+    'state': 'Hubei',
+    'country': 'China'
 }, {
-    'Airport': 'Wuxi',
+    'airport': 'Wuxi',
     'iata': 'WUX',
     'icao': '',
-    'City': 'Wuxi',
-    'State': 'Jiangsu',
-    'Country': 'China'
+    'city': 'Wuxi',
+    'state': 'Jiangsu',
+    'country': 'China'
 }, {
-    'Airport': 'Hsien Yang Airport',
+    'airport': 'Hsien Yang airport',
     'iata': 'XIY',
     'icao': 'ZLXY',
-    'City': 'Xianyang',
-    'State': 'Shaanxi',
-    'Country': 'China'
+    'city': 'Xianyang',
+    'state': 'Shaanxi',
+    'country': 'China'
 }, {
-    'Airport': 'Xiamen Airport',
+    'airport': 'Xiamen airport',
     'iata': 'XMN',
     'icao': 'ZSAM',
-    'City': 'Xiamen',
-    'State': 'Fujian',
-    'Country': 'China'
+    'city': 'Xiamen',
+    'state': 'Fujian',
+    'country': 'China'
 }, {
-    'Airport': 'Xining Airport',
+    'airport': 'Xining airport',
     'iata': 'XNN',
     'icao': '',
-    'City': 'Xining',
-    'State': 'Qinghai',
-    'Country': 'China'
+    'city': 'Xining',
+    'state': 'Qinghai',
+    'country': 'China'
 }, {
-    'Airport': 'Edmonton International Airport',
+    'airport': 'Edmonton International airport',
     'iata': 'YEG',
     'icao': 'CYEG',
-    'City': 'Leduc',
-    'State': 'Alberta',
-    'Country': 'Canada'
+    'city': 'Leduc',
+    'state': 'Alberta',
+    'country': 'Canada'
 }, {
-    'Airport': 'Halifax International Airport',
+    'airport': 'Halifax International airport',
     'iata': 'YHZ',
     'icao': 'CYHZ',
-    'City': 'Fall River',
-    'State': 'Nova Scotia',
-    'Country': 'Canada'
+    'city': 'Fall River',
+    'state': 'Nova Scotia',
+    'country': 'Canada'
 }, {
-    'Airport': 'Kelowna International Airport',
+    'airport': 'Kelowna International airport',
     'iata': 'YLW',
     'icao': 'CYLW',
-    'City': 'Kelowna',
-    'State': 'British Columbia',
-    'Country': 'Canada'
+    'city': 'Kelowna',
+    'state': 'British Columbia',
+    'country': 'Canada'
 }, {
-    'Airport': 'Yantai Airport',
+    'airport': 'Yantai airport',
     'iata': 'YNT',
     'icao': '',
-    'City': 'Yantai',
-    'State': 'Shandong',
-    'Country': 'China'
+    'city': 'Yantai',
+    'state': 'Shandong',
+    'country': 'China'
 }, {
-    'Airport': 'Ottawa International Airport',
+    'airport': 'Ottawa International airport',
     'iata': 'YOW',
     'icao': 'CYOW',
-    'City': 'Ottawa',
-    'State': 'Ontario',
-    'Country': 'Canada'
+    'city': 'Ottawa',
+    'state': 'Ontario',
+    'country': 'Canada'
 }, {
-    'Airport': 'Aéroport International Pierre-Elliott-Trudeau d',
+    'airport': 'Aéroport International Pierre-Elliott-Trudeau d',
     'iata': 'YUL',
     'icao': 'CYUL',
-    'City': 'Dorval',
-    'State': 'Quebec',
-    'Country': 'Canada'
+    'city': 'Dorval',
+    'state': 'Quebec',
+    'country': 'Canada'
 }, {
-    'Airport': 'Vancouver International Airport',
+    'airport': 'Vancouver International airport',
     'iata': 'YVR',
     'icao': 'CYVR',
-    'City': 'Richmond',
-    'State': 'British Columbia',
-    'Country': 'Canada'
+    'city': 'Richmond',
+    'state': 'British Columbia',
+    'country': 'Canada'
 }, {
-    'Airport': 'Winnipeg International Airport',
+    'airport': 'Winnipeg International airport',
     'iata': 'YWG',
     'icao': 'CYWG',
-    'City': 'Winnipeg',
-    'State': 'Manitoba',
-    'Country': 'Canada'
+    'city': 'Winnipeg',
+    'state': 'Manitoba',
+    'country': 'Canada'
 }, {
-    'Airport': 'Calgary International Airport',
+    'airport': 'Calgary International airport',
     'iata': 'YYC',
     'icao': 'CYYC',
-    'City': 'Calgary',
-    'State': 'Alberta',
-    'Country': 'Canada'
+    'city': 'Calgary',
+    'state': 'Alberta',
+    'country': 'Canada'
 }, {
-    'Airport': 'Toronto Lester B Pearson International Airport',
+    'airport': 'Toronto Lester B Pearson International airport',
     'iata': 'YYZ',
     'icao': 'CYYZ',
-    'City': 'Mississauga',
-    'State': 'Ontario',
-    'Country': 'Canada'
+    'city': 'Mississauga',
+    'state': 'Ontario',
+    'country': 'Canada'
 }, {
-    'Airport': 'Zagreb Airport',
+    'airport': 'Zagreb airport',
     'iata': 'ZAG',
     'icao': 'LDZA',
-    'City': 'Nagygoricza',
-    'State': 'Zagrebačka',
-    'Country': 'Croatia'
+    'city': 'Nagygoricza',
+    'state': 'Zagrebačka',
+    'country': 'Croatia'
 }, {
-    'Airport': 'Maquehue Airport',
+    'airport': 'Maquehue airport',
     'iata': 'ZCO',
     'icao': 'SCTC',
-    'City': 'Padre Las Casas',
-    'State': 'Araucania',
-    'Country': 'Chile'
+    'city': 'Padre Las Casas',
+    'state': 'Araucania',
+    'country': 'Chile'
 }, {
-    'Airport': 'Zurich International Airport',
+    'airport': 'Zurich International airport',
     'iata': 'ZRH',
     'icao': 'LSZH',
-    'City': 'Kloten',
-    'State': 'Canton of Zurich',
-    'Country': 'Switzerland'
+    'city': 'Kloten',
+    'state': 'Canton of Zurich',
+    'country': 'Switzerland'
 }, {
-    'Airport': 'Zhuhai Airport',
+    'airport': 'Zhuhai airport',
     'iata': 'ZUH',
     'icao': '',
-    'City': 'Zhuhai',
-    'State': 'Guangdong',
-    'Country': 'China'
+    'city': 'Zhuhai',
+    'state': 'Guangdong',
+    'country': 'China'
 }]
