@@ -2,8 +2,6 @@
 
 from faker.providers import BaseProvider
 from random import choice, choices, randint
-# from .airport_dict import airport_list
-# from .airlines_dict import airlines
 from .constants import airport_list, airlines
 
 
@@ -19,7 +17,7 @@ class AirTravelProvider(BaseProvider):
 
     def airport_object(self):
         # Returns a random airport dict example: 
-        # {'Airport': 'Bradley International Airport',
+        # {'airport': 'Bradley International Airport',
         #  'iata': 'BDL',
         #  'icao': 'KBDL',
         #  'city': 'Windsor Locks',
