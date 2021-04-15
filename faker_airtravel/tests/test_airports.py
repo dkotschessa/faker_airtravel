@@ -3,7 +3,7 @@ import random
 import pytest
 from faker import Faker
 from faker_airtravel import AirTravelProvider
-from faker_airtravel.airport_dict import airport_list as ap
+from faker_airtravel.constants import airport_list as ap
 
 fake = Faker()
 fake.add_provider(AirTravelProvider)

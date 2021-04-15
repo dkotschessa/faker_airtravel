@@ -2,8 +2,9 @@
 
 from faker.providers import BaseProvider
 from random import choice, choices, randint
-from .airport_dict import airport_list
-from .airlines_dict import airlines
+# from .airport_dict import airport_list
+# from .airlines_dict import airlines
+from .constants import airport_list, airlines
 
 
 class AirTravelProvider(BaseProvider):
