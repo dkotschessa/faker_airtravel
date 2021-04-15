@@ -10,3 +10,5 @@ home-page = "https://github.com/dkotschessa/faker_airtravel.git"
 classifiers = [ "License :: OSI Approved :: MIT License",]
 description-file = "README.md"
 
+[tool.flit.metadata.requires-extra]
+test = ["pytest", "pytest-cov", "tox"]
