@@ -1,7 +1,7 @@
 
 
 from faker.providers import BaseProvider
-from random import choice, choices, randint
+from random import choice, sample, randint
 from .constants import airport_list, airlines
 
 
@@ -49,7 +49,7 @@ class AirTravelProvider(BaseProvider):
         return airline
 
     def flight(self):
-        origin, destination = choices(airport_list, k=2)
+        origin, destination = sample(airport_list, k=2)
         airline = choice(airlines)
         stops = choice([1,2,3,'non-stop'])
         price = randint(200, 1000)
