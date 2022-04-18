@@ -44,12 +44,12 @@ fake = Faker()
 
 ``` python
 >>> fake.airport_object()
-{'Airport': 'Tocumen International Airport',
+{'airport': 'Tocumen International Airport',
 'iata': 'PTY',
 'icao': 'MPTO',
-'City': 'Tocumen',
-'State': 'Panama',
-'Country': 'Panama'}
+'city': 'Tocumen',
+'state': 'Panama',
+'country': 'Panama'}
 
 >>> fake.airport_name()
 'Lisbon Airport'
@@ -82,18 +82,18 @@ However it does have the advantage that it will never choose the same 'origin' a
 >>>fake.flight()
 
 {'airline': 'Maya Island Air',
- 'origin': {'Airport': 'Noi Bai Airport',
+ 'origin': {'airport': 'Noi Bai Airport',
   'iata': 'HAN',
   'icao': 'VVNB',
-  'City': 'Hanoi',
-  'State': 'Ha Noi',
-  'Country': 'Vietnam'},
- 'destination': {'Airport': 'Geneva Airport',
+  'city': 'Hanoi',
+  'state': 'Ha Noi',
+  'country': 'Vietnam'},
+ 'destination': {'airport': 'Geneva Airport',
   'iata': 'GVA',
   'icao': 'LSGG',
-  'City': 'Geneva',
-  'State': 'Canton of Geneva',
-  'Country': 'Switzerland'},
+  'city': 'Geneva',
+  'state': 'Canton of Geneva',
+  'country': 'Switzerland'},
  'stops': 'non-stop',
  'price': 641}
  ```
