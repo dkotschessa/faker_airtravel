@@ -1,11 +1,12 @@
 from faker import Faker
-from faker_airtravel import AirTravelProvider
 
+from faker_airtravel import AirTravelProvider
 
 fake = Faker()
 
+
 def test_origin_destination_different():
-    for provider in (AirTravelProvider, ):
+    for provider in (AirTravelProvider,):
         fake.add_provider(provider)
 
     for _ in range(10_000):
