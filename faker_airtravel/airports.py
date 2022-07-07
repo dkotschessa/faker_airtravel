@@ -16,7 +16,7 @@ class AirTravelProvider(BaseProvider):
     """
 
     def airport_object(self):
-        # Returns a random airport dict example: 
+        # Returns a random airport dict example:
         # {'airport': 'Bradley International Airport',
         #  'iata': 'BDL',
         #  'icao': 'KBDL',
@@ -26,7 +26,7 @@ class AirTravelProvider(BaseProvider):
         ap = choice(airport_list)
         return ap
 
-        
+
 
     def airport_name(self):
         airport = self.airport_object()
@@ -43,7 +43,7 @@ class AirTravelProvider(BaseProvider):
         icao = choice(icao_list)
         return icao
 
-    
+
     def airline(self):
         airline = choice(airlines)
         return airline
@@ -60,4 +60,3 @@ class AirTravelProvider(BaseProvider):
                 'price' : price
         }
         return flight_object
-
