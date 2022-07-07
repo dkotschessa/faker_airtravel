@@ -1,8 +1,8 @@
-
+from random import choice, randint, sample
 
 from faker.providers import BaseProvider
-from random import choice, sample, randint
-from .constants import airport_list, airlines
+
+from .constants import airlines, airport_list
 
 
 class AirTravelProvider(BaseProvider):
@@ -26,23 +26,22 @@ class AirTravelProvider(BaseProvider):
         ap = choice(airport_list)
         return ap
 
-
-
     def airport_name(self):
         airport = self.airport_object()
-        name = airport.get('airport')
+        name = airport.get("airport")
         return name
 
     def airport_iata(self):
         airport = self.airport_object()
-        iata = airport.get('iata')
+        iata = airport.get("iata")
         return iata
 
     def airport_icao(self):
-        icao_list  = [airport['icao'] for airport in airport_list if not airport['icao'] == '']
+        icao_list = [
+            airport["icao"] for airport in airport_list if not airport["icao"] == ""
+        ]
         icao = choice(icao_list)
         return icao
-
 
     def airline(self):
         airline = choice(airlines)
@@ -51,12 +50,13 @@ class AirTravelProvider(BaseProvider):
     def flight(self):
         origin, destination = sample(airport_list, k=2)
         airline = choice(airlines)
-        stops = choice([1,2,3,'non-stop'])
+        stops = choice([1, 2, 3, "non-stop"])
         price = randint(200, 1000)
-        flight_object = {'airline' : airline,
-                'origin': origin,
-                'destination' : destination,
-                'stops' : stops,
-                'price' : price
+        flight_object = {
+            "airline": airline,
+            "origin": origin,
+            "destination": destination,
+            "stops": stops,
+            "price": price,
         }
         return flight_object
