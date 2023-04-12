@@ -97,8 +97,3 @@ However it does have the advantage that it will never choose the same 'origin' a
  'stops': 'non-stop',
  'price': 641}
  ```
-
-
- 
-
-
