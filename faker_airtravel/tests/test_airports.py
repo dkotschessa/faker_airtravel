@@ -50,4 +50,4 @@ def test_airline():
 
 def test_flight():
     flight = fake.flight()
-    assert len(flight) == 5
+    assert len(flight) == 7
