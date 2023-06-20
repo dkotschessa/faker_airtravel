@@ -70,6 +70,27 @@ class AirTravelProvider(BaseProvider):
         weight_airlines: Optional[list[float]]=None,
         weight_airports: Optional[list[float]]=None
     ):
+        """Set a personal data source, ignoring the predefined constants
+
+            :sample: airlines=[{
+                'name': 'Albuquerque International Airport',
+                'iata': 'ABQ',
+                'icao': 'KABQ',
+                'city': 'Albuquerque',
+                'state': 'New Mexico',
+                'country': 'United States'
+            }, {
+                'name': 'Arrecife Airport',
+                'iata': 'ACE',
+                'icao': 'GCRR',
+                'city': 'San Bartolomé',
+                'state': 'Canary Islands',
+                'country': 'Spain'
+            }],
+            weight_airlines=[0.5, 0.4]
+
+        """
+
         if airlines:
             airlines = [Airline(airline) for airline in airlines]
         else:
@@ -145,6 +166,16 @@ class AirTravelProvider(BaseProvider):
         start_date="-30y",
         end_date="now"
     ) -> dict:
+        """Create a random flight
+
+            :sample: OD="ABQ": OrderedDict([
+                            ("ADZ", 1)
+                        ]),
+                        "ADZ": OrderedDict([
+                            ("ABQ", 0.5),
+                            ("ACE", 0.5)
+                        ])
+        """
         
         # Origin Destination choice
         if OD:
@@ -192,11 +223,17 @@ class AirTravelProvider(BaseProvider):
         departure_time = "{:0d}:{:02d}".format(departure_datetime.hour, departure_datetime.minute)
 
         # Arrival date time
+        duration = randint(-19, 19)
+
         if OD_times:
             # Take trip lenght from OD time matrix
-            duration = OD_times.get(origin_iata).get(destination_iata)
-        else:
-            duration = randint(-19, 19)
+
+            origin_times = OD_times.get(origin.iata)
+            if origin_times:
+                destination_time = origin_times.get(destination.iata)
+                if destination_time:
+                    duration = destination_time
+            
 
         arrival_datetime = departure_datetime+timedelta(hours=duration)
         arrival_date = arrival_datetime.strftime('%Y-%m-%d')

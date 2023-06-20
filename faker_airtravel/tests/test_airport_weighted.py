@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from datetime import date, datetime, timedelta
 from faker import Faker
 
 from faker_airtravel import AirTravelProvider
@@ -75,6 +76,33 @@ def test_flight_weight():
     assert flight.get("destination").get("iata") in ["ADZ", "ABQ", "ACE"]
     assert (
         flight.get("origin").get("iata") == "ABQ" and flight.get("destination").get("iata") == "ADZ" or
-        flight.get("origin").get("iata") == "ADZ" and (flight.get("destination").get("iata") == "ABQ" or flight.get("destination").get("iata") == "ACE") or
+        flight.get("origin").get("iata") == "ADZ" and (
+            flight.get("destination").get("iata") == "ABQ" or
+            flight.get("destination").get("iata") == "ACE"
+        ) or
         flight.get("origin").get("iata") == "ACE"
     )
+
+def test_flight_weight_times():
+    fake.flight_data_source(
+        airport_list=airports,
+        airlines=airlines,
+        weight_airlines=[0.5, 0.5, 0]
+    )
+
+    OD_times={
+        "ABQ": {
+            "ADZ": 1
+        },
+    }
+
+    flight = fake.flight(OD_times=OD_times)
+
+    dep_time = datetime.strptime(flight.get("departure_time"), '%H:%M').time()
+    arr_time = datetime.strptime(flight.get("arrival_time"), '%H:%M').time()
+
+    dep_time = datetime.combine(date.today(), dep_time)
+    arr_time = datetime.combine(date.today(), arr_time)
+
+    if (flight.get("origin").get("iata") == "ABQ" and flight.get("destination").get("iata") == "ADZ"):
+        assert dep_time + timedelta(hours=1) == arr_time
