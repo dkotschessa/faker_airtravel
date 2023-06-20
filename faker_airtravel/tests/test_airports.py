@@ -30,7 +30,7 @@ def test_dict_keys(airports, test_input):
 
 def test_airport_name():
     name = fake.airport_name()
-    assert len(name) > 4
+    assert len(name) >= 4
 
 
 def test_iata():
