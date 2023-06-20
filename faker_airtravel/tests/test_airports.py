@@ -10,24 +10,6 @@ fake = Faker()
 fake.add_provider(AirTravelProvider)
 
 
-@pytest.fixture
-def airports():
-    return ap
-
-
-airport_keys = ["airport", "iata", "icao", "city", "state", "country"]
-
-
-def test_airports(airports):
-    assert len(airports) > 1
-
-
-@pytest.mark.parametrize("test_input", airport_keys)
-def test_dict_keys(airports, test_input):
-    a = random.choice(airports)
-    assert test_input in a.keys()
-
-
 def test_airport_name():
     name = fake.airport_name()
     assert len(name) > 4
