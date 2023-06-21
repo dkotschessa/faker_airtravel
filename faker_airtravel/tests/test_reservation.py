@@ -1,10 +1,10 @@
 from faker import Faker
 
-from faker_airtravel import ReservationProvider
+from faker_airtravel import AirReservationProvider
 from faker_airtravel.constants import cabin_class as cc
 
 fake = Faker()
-fake.add_provider(ReservationProvider)
+fake.add_provider(AirReservationProvider)
 
 def test_record_locator():
     name = fake.record_locator()

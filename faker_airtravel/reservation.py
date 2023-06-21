@@ -8,11 +8,9 @@ from .constants import cabin_class
 
 import string
 
-from datetime import date
-
 _fake = Faker()
 
-class ReservationProvider(BaseProvider):
+class AirReservationProvider(BaseProvider):
     """
     A Provider for travel related test data.
 
