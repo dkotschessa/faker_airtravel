@@ -1,4 +1,4 @@
-from random import choices, randint, sample
+from random import randint
 from datetime import timedelta
 from typing import Optional, OrderedDict, Union
 from collections import OrderedDict
@@ -7,6 +7,7 @@ from faker import Faker
 from faker.providers import BaseProvider, date_time
 
 from .constants import airlines, airport_list
+from .commons import create_dict_weights
 
 _fake = Faker()
 _fake.add_provider(date_time)
@@ -102,16 +103,11 @@ class AirTravelProvider(BaseProvider):
             airport_list = self.airport_list
 
         if weight_airlines:
-            airlines = OrderedDict(
-                (airline, weight)
-                for (airline, weight) in zip(self.airlines, weight_airlines)
-            )
+            airlines = create_dict_weights(self.airlines, weight_airlines)
 
         if weight_airports:
-            airport_list = OrderedDict(
-                (airport, weight)
-                for (airport, weight) in zip(self.airport_list, weight_airports)
-            )
+            airport_list = create_dict_weights(self.airport_list, weight_airports)
+
 
         self.airlines = airlines
         self.airport_list = airport_list
