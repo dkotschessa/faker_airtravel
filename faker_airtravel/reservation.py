@@ -83,7 +83,7 @@ class AirReservationProvider(BaseProvider):
 
         return price
     
-    def passenger(
+    def reservation(
         self,
         min_max_pax: tuple[int, int] = (1, 4),
         min_max_leg: tuple[int, int] = (1, 4),

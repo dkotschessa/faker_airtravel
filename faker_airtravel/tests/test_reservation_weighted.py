@@ -38,7 +38,7 @@ def test_cabin_class():
 
     assert cabin_class in cc[:2]
 
-def test_passenger():
+def test_reservation():
     def price_function(**args):
         return 5
     
@@ -49,7 +49,7 @@ def test_passenger():
         "cabin_class": [0.5, 0.5, 0, 0]
     }
 
-    passenger = fake.passenger(
+    reservation = fake.reservation(
         min_max_pax=(2,5),
         min_max_leg=(1,3),
         start_end_res=("now", "now"),
@@ -57,8 +57,8 @@ def test_passenger():
         weights=weights
     )
 
-    assert passenger.get("ticket_price") == 5
-    assert passenger.get("number_pax") == 2
-    assert passenger.get("frq_flr") == 0
-    assert passenger.get("leg_number") in [1, 2, 3]
-    assert passenger.get("cabin_class") in cc[:2]
+    assert reservation.get("ticket_price") == 5
+    assert reservation.get("number_pax") == 2
+    assert reservation.get("frq_flr") == 0
+    assert reservation.get("leg_number") in [1, 2, 3]
+    assert reservation.get("cabin_class") in cc[:2]

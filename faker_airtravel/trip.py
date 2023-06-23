@@ -34,9 +34,9 @@ class AirTripProvider(BaseProvider):
             )
             for _ in range(n_reservation):
                 if reservations_parameters:
-                    reservation =_fake.passenger(**reservations_parameters)
+                    reservation =_fake.reservation(**reservations_parameters)
                 else:
-                    reservation = _fake.passenger()
+                    reservation = _fake.reservation()
 
                 reservations.append(
                     reservation

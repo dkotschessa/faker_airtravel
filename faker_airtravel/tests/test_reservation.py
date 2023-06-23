@@ -40,17 +40,17 @@ def test_ticket_price():
 
     assert isinstance(ticket_price, int) or isinstance(ticket_price, float)
 
-def test_passenger():
+def test_reservation():
     def price_function(**args):
         return 5
 
-    passenger = fake.passenger(
+    reservation = fake.reservation(
         min_max_pax=(1,1),
         min_max_leg=(1,1),
         start_end_res=("now", "now"),
         price_function=price_function
     )
 
-    assert passenger.get("number_pax") == 1
-    assert passenger.get("leg_number") == 1
-    assert passenger.get("ticket_price") == 5
+    assert reservation.get("number_pax") == 1
+    assert reservation.get("leg_number") == 1
+    assert reservation.get("ticket_price") == 5
