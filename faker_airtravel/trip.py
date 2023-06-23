@@ -1,3 +1,4 @@
+from datetime import datetime
 from faker import Faker
 from faker.providers import BaseProvider
 from faker_airtravel import AirReservationProvider, AirTravelProvider
@@ -13,11 +14,12 @@ class AirTripProvider(BaseProvider):
         n_trip: int=5,
         max_reservation_flight: int=150,
         flight_parameters: dict=None,
-        reservations_parameters: dict=None
+        reservations_parameters: dict={}
     ):
 
         trips = []
         for _ in range(n_trip):
+            # create a flight
             if flight_parameters:
                 trip =_fake.flight(**flight_parameters)
             else:
@@ -32,11 +34,16 @@ class AirTripProvider(BaseProvider):
                 min=1,
                 max=max_reservation_flight
             )
+
+            dep_date = datetime.strptime(trip.get("departure_date"), "%Y-%m-%d")
+
             for _ in range(n_reservation):
-                if reservations_parameters:
-                    reservation =_fake.reservation(**reservations_parameters)
-                else:
-                    reservation = _fake.reservation()
+                # create a reservation
+
+                reservations_parameters["end_date"] = dep_date
+                
+                reservation =_fake.reservation(**reservations_parameters)
+
 
                 reservations.append(
                     reservation

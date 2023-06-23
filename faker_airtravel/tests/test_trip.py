@@ -52,7 +52,7 @@ def test_trip_with_params():
     reservations_parameters = {
         "min_max_pax": (2,5),
         "min_max_leg": (1,3),
-        "start_end_res": ("now", "now"),
+        "start_date": "-30y",
         "price_function": price_function,
         "weights": weights_reservation
     }
@@ -63,6 +63,8 @@ def test_trip_with_params():
     )
 
     for flight in flights:
+        dep_date = datetime.strptime(flight.get("departure_date"), "%Y-%m-%d")
+
         dep_time = datetime.strptime(flight.get("departure_time"), '%H:%M').time()
         arr_time = datetime.strptime(flight.get("arrival_time"), '%H:%M').time()
 
@@ -73,8 +75,11 @@ def test_trip_with_params():
             assert dep_time + timedelta(hours=1) == arr_time
 
         for reservation in flight["reservations"]:
+            res_date = datetime.strptime(reservation.get("date_creation_reservation"), "%Y-%m-%d")
+
             assert reservation.get("ticket_price") == 5
             assert reservation.get("number_pax") == 2
             assert reservation.get("frq_flr") == 0
             assert reservation.get("leg_number") in [1, 2, 3]
             assert reservation.get("cabin_class") in cc[:2]
+            assert res_date <= dep_date

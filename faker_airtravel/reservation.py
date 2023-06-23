@@ -73,7 +73,7 @@ class AirReservationProvider(BaseProvider):
         start_date: DateParseType = "-30y",
         end_date: DateParseType = "now"
     ) -> str:
-        reservation_datetime = _fake.date_time_between(start_date, end_date)
+        reservation_datetime = _fake.date_between_dates(date_start=start_date, date_end=end_date)
         reservation_date = reservation_datetime.strftime('%Y-%m-%d')
 
         return reservation_date
@@ -87,7 +87,8 @@ class AirReservationProvider(BaseProvider):
         self,
         min_max_pax: tuple[int, int] = (1, 4),
         min_max_leg: tuple[int, int] = (1, 4),
-        start_end_res: tuple[DateParseType, DateParseType] = ("-30y", "now"),
+        start_date: DateParseType = "-30y",
+        end_date: DateParseType = "now",
         weights: dict[str, list[float]] = None,
         price_function: Optional[Callable] = None
     ):
@@ -108,7 +109,7 @@ class AirReservationProvider(BaseProvider):
         frq_flr = self.frequent_flyer(weights=frq_flr_w)
         leg_number = self.leg_number(min=min_max_leg[0], max=min_max_leg[1], weights=leg_num_w)
         cabin_class = self.cabin_class(weights=cabin_class_w)
-        date_creation_reservation = self.date_creation_reservation(start_date=start_end_res[0], end_date=start_end_res[1])
+        date_creation_reservation = self.date_creation_reservation(start_date=start_date, end_date=end_date)
 
         ticket_price = self.ticket_price()
 

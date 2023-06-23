@@ -52,7 +52,8 @@ def test_reservation():
     reservation = fake.reservation(
         min_max_pax=(2,5),
         min_max_leg=(1,3),
-        start_end_res=("now", "now"),
+        start_date="now",
+        end_date="now",
         price_function=price_function,
         weights=weights
     )
