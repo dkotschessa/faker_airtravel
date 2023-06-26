@@ -103,7 +103,7 @@ class AirTravelProvider(BaseProvider):
             airport_list = self.airport_list
 
         if weight_airlines:
-            airlines = create_dict_weights(self.airlines, weight_airlines)
+            airlines = create_dict_weights(airlines, weight_airlines)
 
         if weight_airports:
             airport_list = create_dict_weights(self.airport_list, weight_airports)
@@ -112,7 +112,7 @@ class AirTravelProvider(BaseProvider):
         self.airlines = airlines
         self.airport_list = airport_list
 
-    def airport_object(self) -> dict:
+    def airport_object(self, airports=None) -> dict:
         # Returns a random airport dict example:
         # {'name': 'Bradley International Airport',
         #  'iata': 'BDL',
@@ -120,7 +120,13 @@ class AirTravelProvider(BaseProvider):
         #  'city': 'Windsor Locks',
         #  'state': 'Connecticut',
         #  'country': 'United States'}
-        ap = _fake.random_element(elements=self.airport_list)
+
+        if airports:
+            filtered_airports = filter(lambda airport: airport.iata in airports, self.airport_list)
+        else:
+            filtered_airports = self.airport_list
+       
+        ap = _fake.random_element(elements=filtered_airports)
         return ap
 
     def airport_name(self) -> str:
@@ -176,7 +182,7 @@ class AirTravelProvider(BaseProvider):
         # Origin Destination choice
         if OD:
             # Select randomly origin from OD
-            origin = self.airport_object()
+            origin = self.airport_object(list(OD.keys()))
             origin_iata = origin.iata
             origin_airport = OD.get(origin_iata)
 
@@ -193,6 +199,7 @@ class AirTravelProvider(BaseProvider):
 
             # Find the airport object
             if isinstance(self.airport_list, OrderedDict):
+                # If we have weighted airport list
                 destination = next(
                     airport for airport in self.airport_list.keys()
                     if airport.iata == destination_iata
