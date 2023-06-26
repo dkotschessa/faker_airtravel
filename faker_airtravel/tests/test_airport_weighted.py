@@ -92,7 +92,7 @@ def test_flight_weight_times():
 
     OD_times={
         "ABQ": {
-            "ADZ": 1
+            "ADZ": 6
         },
     }
 
@@ -105,4 +105,4 @@ def test_flight_weight_times():
     arr_time = datetime.combine(date.today(), arr_time)
 
     if (flight.get("origin").get("iata") == "ABQ" and flight.get("destination").get("iata") == "ADZ"):
-        assert dep_time + timedelta(hours=1) == arr_time
+        assert dep_time + timedelta(hours=6) == arr_time

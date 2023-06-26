@@ -90,7 +90,8 @@ class AirReservationProvider(BaseProvider):
         start_date: DateParseType = "-30y",
         end_date: DateParseType = "now",
         weights: dict[str, list[float]] = None,
-        price_function: Optional[Callable] = None
+        price_function: Optional[Callable] = None,
+        args_price_function: Optional[dict] = None
     ):
         number_pax_w = None
         frq_flr_w = None
@@ -120,7 +121,8 @@ class AirReservationProvider(BaseProvider):
                 frq_flr=frq_flr,
                 leg_number=leg_number,
                 cabin_class=cabin_class,
-                date_creation_reservation=date_creation_reservation
+                date_creation_reservation=date_creation_reservation,
+                args_flight=args_price_function
             )
 
         return {

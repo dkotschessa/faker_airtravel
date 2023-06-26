@@ -21,12 +21,6 @@ def test_trip():
     assert len(trip[0].get("reservations")) > 0 and len(trip[0].get("reservations")) <= 150
 
 def test_trip_with_params():
-    fake.flight_data_source(
-        airport_list=airports,
-        airlines=airlines,
-        weight_airlines=[0.5, 0.5, 0]
-    )
-
     # Flight
     OD_times={
         "ABQ": {
@@ -59,7 +53,10 @@ def test_trip_with_params():
 
     flights = fake.trip(
         flight_parameters=flight_parameters,
-        reservations_parameters=reservations_parameters
+        reservations_parameters=reservations_parameters,
+        airport_list=airports,
+        airlines=airlines,
+        weight_airlines=[0.5, 0.5, 0]
     )
 
     for flight in flights:
@@ -70,6 +67,9 @@ def test_trip_with_params():
 
         dep_time = datetime.combine(date.today(), dep_time)
         arr_time = datetime.combine(date.today(), arr_time)
+
+        assert flight.get("airline") in airlines
+        assert flight.get("origin").get("iata") in [airport.get('iata') for airport in airports]
 
         if (flight.get("origin").get("iata") == "ABQ" and flight.get("destination").get("iata") == "ADZ"):
             assert dep_time + timedelta(hours=1) == arr_time
