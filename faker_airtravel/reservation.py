@@ -1,9 +1,10 @@
+from datetime import timedelta
 from typing import Callable, Optional
 from faker import Faker
 from faker.providers import BaseProvider
 from faker.typing import DateParseType
 
-from .commons import create_dict_weights
+from .commons import DATE_FORMAT, create_dict_weights
 from .constants import cabin_class
 
 import string
@@ -74,7 +75,7 @@ class AirReservationProvider(BaseProvider):
         end_date: DateParseType = "now"
     ) -> str:
         reservation_datetime = _fake.date_between_dates(date_start=start_date, date_end=end_date)
-        reservation_date = reservation_datetime.strftime('%Y-%m-%d')
+        reservation_date = reservation_datetime.strftime(DATE_FORMAT)
 
         return reservation_date
 
@@ -112,6 +113,10 @@ class AirReservationProvider(BaseProvider):
         cabin_class = self.cabin_class(weights=cabin_class_w)
         date_creation_reservation = self.date_creation_reservation(start_date=start_date, end_date=end_date)
 
+        # end_date is the departure date
+        date_return = _fake.date_between(start_date=end_date, end_date=timedelta(days=60))
+        date_return = date_return.strftime(DATE_FORMAT)
+
         ticket_price = self.ticket_price()
 
         if price_function:
@@ -122,6 +127,7 @@ class AirReservationProvider(BaseProvider):
                 leg_number=leg_number,
                 cabin_class=cabin_class,
                 date_creation_reservation=date_creation_reservation,
+                date_return=date_return,
                 args_flight=args_price_function
             )
 
@@ -132,6 +138,7 @@ class AirReservationProvider(BaseProvider):
             "leg_number": leg_number,
             "cabin_class": cabin_class,
             "date_creation_reservation": date_creation_reservation,
+            "date_return": date_return,
             "ticket_price": ticket_price
         }
 

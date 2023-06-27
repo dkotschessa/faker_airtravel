@@ -7,7 +7,7 @@ from faker import Faker
 from faker.providers import BaseProvider, date_time
 
 from .constants import airlines, airport_list
-from .commons import create_dict_weights
+from .commons import DATE_FORMAT, HOUR_FORMAT, create_dict_weights
 
 _fake = Faker()
 _fake.add_provider(date_time)
@@ -222,8 +222,8 @@ class AirTravelProvider(BaseProvider):
 
         # Departure date choice
         departure_datetime = _fake.date_time_between(start_date, end_date)
-        departure_date = departure_datetime.strftime('%Y-%m-%d')
-        departure_time = "{:0d}:{:02d}".format(departure_datetime.hour, departure_datetime.minute)
+        departure_date = departure_datetime.strftime(DATE_FORMAT)
+        departure_time = HOUR_FORMAT.format(departure_datetime.hour, departure_datetime.minute)
 
         # Arrival date time
         duration = randint(-19, 19)
@@ -239,8 +239,8 @@ class AirTravelProvider(BaseProvider):
             
 
         arrival_datetime = departure_datetime+timedelta(hours=duration)
-        arrival_date = arrival_datetime.strftime('%Y-%m-%d')
-        arrival_time = "{:0d}:{:02d}".format(arrival_datetime.hour, arrival_datetime.minute)
+        arrival_date = arrival_datetime.strftime(DATE_FORMAT)
+        arrival_time = HOUR_FORMAT.format(arrival_datetime.hour, arrival_datetime.minute)
 
         flight_object = {
             "airline": airline,

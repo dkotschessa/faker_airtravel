@@ -3,6 +3,7 @@ from typing import Optional
 from faker import Faker
 from faker.providers import BaseProvider
 from faker_airtravel import AirReservationProvider, AirTravelProvider
+from faker_airtravel.commons import DATE_FORMAT
 
 _fake = Faker()
 _fake.add_provider(AirReservationProvider)
@@ -47,7 +48,7 @@ class AirTripProvider(BaseProvider):
                 max=max_reservation_flight
             )
 
-            dep_date = datetime.strptime(trip.get("departure_date"), "%Y-%m-%d")
+            dep_date = datetime.strptime(trip.get("departure_date"), DATE_FORMAT)
 
             for _ in range(n_reservation):
                 # create a reservation
